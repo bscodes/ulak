@@ -26,8 +26,6 @@ body {
     }
 
     .left-bar {
-
-
       .hero-text {
         position: absolute;
         top: 50%;
@@ -38,15 +36,47 @@ body {
 
     .right-bar {
       .crop {
-        height: 140px;
+        height: 225px;
         width: 100%;
         overflow: hidden;
         margin: 0;
+
+        @media only screen and (max-width: 768px) {
+          & {
+            height: 100%;
+          }
+        }
 
         .hero-image {
           width: 100%;
           display: block;
           margin: -28px 0 0 0px;
+        }
+      }
+
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-weight: 900;
+
+        @media only screen and (max-width: 768px) {
+          & {
+            left: 31%;
+          }
+        }
+      }
+
+      .four-bar {
+        text-align: left;
+
+        .hero-text-min {
+          position: absolute;
+          top: 10%;
+          left: 9%;
+          font-size: 1.5rem;
+          font-weight: 900;
         }
       }
     }
