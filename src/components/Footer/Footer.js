@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../image/logo.png';
+import logo from '../../image/logo-alt.png';
 import linkedin from '../../image/linkedin.png';
 import twitter from '../../image/twitter.png';
 import facebook from '../../image/facebook.png';
