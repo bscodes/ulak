@@ -28,7 +28,7 @@ body, html {
       justify-content: center;
 
       .nav-logo {
-        width: 150px;
+        width: 9rem;
         padding: 10px;
       }
     }
@@ -65,7 +65,7 @@ body, html {
     justify-content: center;
 
     .footer-logo {
-      width: 15%;
+      width: 15rem;
 
       @media only screen and (max-width: 768px) {
         & {
