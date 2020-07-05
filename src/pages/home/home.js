@@ -23,7 +23,8 @@ const Home = () => {
             <div className="row no-gutters">
               <div className="col-lg-6">
                 <div className="left-bar">
-                  <img src={a2} alt="" className="hero-image"/>
+                  {/* <img src={a2} alt="" className="hero-image"/> */}
+                  <div className="left-bar-image"></div>
                   <img src={logo} alt="" className="hero-logo"/>
                   <h3 className="hero-text text-left">
                     Yenilikçi çözümlerimiz ile verimlilik,
