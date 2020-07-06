@@ -1,5 +1,4 @@
 import React from 'react'
-import a2 from '../../image/anasayfa_2.jpg';
 import logo from '../../image/logo.png';
 import cati from '../../image/cati.jpg';
 import strateji from '../../image/stratejik.jpg'
