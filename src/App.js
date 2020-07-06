@@ -4,11 +4,14 @@ import './App.scss';
 import Home from './pages/home/home';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Hamburger from './components/Sidebar/Sidebar'
 
 function App() {
   return (
     <Router>
+      <Hamburger />
       <Navbar/>
+      
       <Switch>
         <Route exact path="/" component={Home}/>
       </Switch>
