@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../image/logo.png';
+import a2 from '../../image/anasayfa_2.jpg';
 import cati from '../../image/cati.jpg';
 import strateji from '../../image/stratejik.jpg'
 import filo from '../../image/anasayfa_buşutfilo.jpg'
@@ -22,8 +23,7 @@ const Home = () => {
             <div className="row no-gutters">
               <div className="col-lg-6">
                 <div className="left-bar">
-                  {/* <img src={a2} alt="" className="hero-image"/> */}
-                  <div className="left-bar-image"></div>
+                  <img src={a2} alt="" className="hero-image"/>
                   <img src={logo} alt="" className="hero-logo"/>
                   <h3 className="hero-text text-left">
                     Yenilikçi çözümlerimiz ile verimlilik,
@@ -36,13 +36,13 @@ const Home = () => {
                 <div className="right-bar">
                   <div className="row no-gutters">
                     <div className="col-lg-12">
-                      <div className="one-bar">
+                      <div className="one-bar gradient">
                         <img src={cati} alt="" className="hero-image"/>
                         <h3 className="hero-text">DİJİTAL ÇATI</h3>
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="four-bar">
+                      <div className="four-bar gradient">
                         <img src={strateji} alt="" className="hero-image"/>
                         <h3 className="hero-text-min first">
                           STRATEJİK PLAN, KALİTE VE 
@@ -51,7 +51,7 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="four-bar">
+                      <div className="four-bar gradient">
                         <img src={filo} alt="" className="hero-image"/>
                         <h3 className="hero-text-min">
                           BULUT FİLO YÖNETİMİ
@@ -59,13 +59,13 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="four-bar">
+                      <div className="four-bar gradient">
                         <img src={drive} alt="" className="hero-image"/>
                         <h3 className="hero-text-min">DRIVE</h3>
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="four-bar">
+                      <div className="four-bar gradient">
                         <img src={scada} alt="" className="hero-image"/>
                         <h3 className="hero-text-min">
                           UZAKTAN TAKİP (SCADA) SİSTEMLERİ
