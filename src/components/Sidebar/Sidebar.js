@@ -1,7 +1,9 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+
 import icon from '../../image/hamburger-icon.png'
 import cross from '../../image/cross.png'
+import Accordion from '../../components/Accordion/Accordion'
 
 export default props => {
   return (
@@ -10,20 +12,19 @@ export default props => {
       customBurgerIcon={ <img src={icon} alt="" /> } 
       customCrossIcon={ <img src={cross} alt="" /> } 
       right>
-      <a className="menu-item" href="/">
-        Home
+      <hr className="line "/>
+      <a className="menu-item" href="/hakkimizda">
+        HAKKIMIZDA
       </a>
-
-      <a className="menu-item" href="/burgers">
-        Burgers
+      <hr className="line "/>
+      <Accordion/>
+      <hr className="line "/>
+      <a className="menu-item" href="/yetkinlik">
+        PROJE YETKİNLİKLERİMİZ
       </a>
-
-      <a className="menu-item" href="/pizzas">
-        Pizzas
-      </a>
-
-      <a className="menu-item" href="/desserts">
-        Desserts
+      <hr className="line "/>
+      <a className="menu-item" href="/iletisim">
+        İLETİŞİM
       </a>
     </Menu>
   );

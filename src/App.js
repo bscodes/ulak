@@ -2,12 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.scss';
 import Home from './pages/home/home';
+import hakkimizda from './pages/hakkimizda/hakkimizda';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Hamburger from './components/Sidebar/Sidebar'
 
 function App() {
   return (
+    <>
     <Router>
       <Hamburger />
       <Navbar/>
@@ -15,9 +17,12 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
       </Switch>
+      <Switch>
+        <Route exact path="/hakkimizda" component={hakkimizda}/>
+      </Switch>
       <Footer/>
     </Router>
-    
+  </>  
   );
 }
 

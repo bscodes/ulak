@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import logo from '../../image/logo.png';
 import a2 from '../../image/anasayfa_2.jpg';
 import cati from '../../image/cati.jpg';
@@ -23,13 +25,16 @@ const Home = () => {
             <div className="row no-gutters">
               <div className="col-lg-6">
                 <div className="left-bar">
-                  <img src={a2} alt="" className="hero-image"/>
-                  <img src={logo} alt="" className="hero-logo"/>
-                  <h3 className="hero-text text-left">
-                    Yenilikçi çözümlerimiz ile verimlilik,
-                    kalite ve rekabet avantajı sağlayan
-                    teknoloji çözümleri üretiyoruz
-                  </h3>
+                  <Link to="/hakkimizda" className="hero-router">
+                    <img src={a2} alt="" className="hero-image"/>
+                    <img src={logo} alt="" className="hero-logo"/>
+                    <h3 className="hero-text text-left">
+                      Yenilikçi çözümlerimiz ile verimlilik,
+                      kalite ve rekabet avantajı sağlayan
+                      teknoloji çözümleri üretiyoruz
+                    </h3>
+                  
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -37,39 +42,50 @@ const Home = () => {
                   <div className="row no-gutters">
                     <div className="col-lg-12">
                       <div className="one-bar gradient">
-                        <img src={cati} alt="" className="hero-image"/>
-                        <h3 className="hero-text">DİJİTAL ÇATI</h3>
+                        <a href="/cati" className="hero-router">
+                          <img src={cati} alt="" className="hero-image"/>
+                          <h3 className="hero-text">DİJİTAL ÇATI</h3>
+                        </a>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <img src={strateji} alt="" className="hero-image"/>
-                        <h3 className="hero-text-min first">
-                          STRATEJİK PLAN, KALİTE VE 
-                          RİSK YÖNETİM SİSTEMİ
-                        </h3>
+                        <a href="/stratejikplan" className="hero-router">
+                          <img src={strateji} alt="" className="hero-image"/>
+                          <h3 className="hero-text-min first">
+                            STRATEJİK PLAN, KALİTE VE 
+                            RİSK YÖNETİM SİSTEMİ
+                          </h3>
+                        </a>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <img src={filo} alt="" className="hero-image"/>
-                        <h3 className="hero-text-min">
-                          BULUT FİLO YÖNETİMİ
-                        </h3>
+                        <a href="/bulutfilo" className="hero-router">
+                          <img src={filo} alt="" className="hero-image"/>
+                          <h3 className="hero-text-min">
+                            BULUT FİLO YÖNETİMİ
+                          </h3>
+                        </a>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <img src={drive} alt="" className="hero-image"/>
-                        <h3 className="hero-text-min">DRIVE</h3>
+                        <a href="/drive" className="hero-router">
+                          <img src={drive} alt="" className="hero-image"/>
+                          <h3 className="hero-text-min">DRIVE</h3>
+                        </a>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <img src={scada} alt="" className="hero-image"/>
-                        <h3 className="hero-text-min">
-                          UZAKTAN TAKİP (SCADA) SİSTEMLERİ
-                        </h3>
+                        <a href="/scada" className="hero-router">
+
+                          <img src={scada} alt="" className="hero-image"/>
+                          <h3 className="hero-text-min">
+                            UZAKTAN TAKİP (SCADA) SİSTEMLERİ
+                          </h3>
+                        </a>
                       </div>
                     </div>
                   </div>
