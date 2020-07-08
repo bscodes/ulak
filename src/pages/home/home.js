@@ -42,50 +42,50 @@ const Home = () => {
                   <div className="row no-gutters">
                     <div className="col-lg-12">
                       <div className="one-bar gradient">
-                        <a href="/cati" className="hero-router">
+                        <Link to="/cati" className="hero-router">
                           <img src={cati} alt="" className="hero-image"/>
                           <h3 className="hero-text">DİJİTAL ÇATI</h3>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <a href="/stratejikplan" className="hero-router">
+                        <Link to="/stratejikplan" className="hero-router">
                           <img src={strateji} alt="" className="hero-image"/>
                           <h3 className="hero-text-min first">
                             STRATEJİK PLAN, KALİTE VE 
                             RİSK YÖNETİM SİSTEMİ
                           </h3>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <a href="/bulutfilo" className="hero-router">
+                        <Link to="/bulutfilo" className="hero-router">
                           <img src={filo} alt="" className="hero-image"/>
                           <h3 className="hero-text-min">
                             BULUT FİLO YÖNETİMİ
                           </h3>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <a href="/drive" className="hero-router">
+                        <Link to="/drive" className="hero-router">
                           <img src={drive} alt="" className="hero-image"/>
                           <h3 className="hero-text-min">DRIVE</h3>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="four-bar gradient">
-                        <a href="/scada" className="hero-router">
+                        <Link to="/scada" className="hero-router">
 
                           <img src={scada} alt="" className="hero-image"/>
                           <h3 className="hero-text-min">
                             UZAKTAN TAKİP (SCADA) SİSTEMLERİ
                           </h3>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
