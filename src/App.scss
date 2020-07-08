@@ -48,6 +48,12 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media only screen and (max-width: 812px) and (orientation: landscape) {
+      & {
+        background-size: auto;
+      }
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -444,6 +450,78 @@ body, html {
     .section-header-image {
       width: 100%;
     }
+
+    .header-logo, .header-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 30%;
+      transform: translate(-50%, -50%);
+    }
+
+    .header-title {
+      width: 100%;
+      padding-top: 16%;
+      font-size: 3rem;
+
+      @media only screen and (max-width: 768px) {
+        & {
+            padding-top: 0;
+            font-size: 1.5rem;
+        }
+      }
+
+      @media only screen and (max-width: 812px) and (orientation: landscape) {
+        & {
+          padding-top: 0;
+        }
+      }
+    }
   }
+
+  .section-body {
+    .section-body-text {
+      text-transform: uppercase;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      @media (min-width: 1281px) {
+        & {
+          padding-left: 20%;
+          padding-right: 20%;
+          margin-top: 100px;
+          margin-bottom: 100px;
+        }
+      }
+    }
+  }
+
+  .icon-wrapper {
+    .row {
+      justify-content: center;
+    }
+    .col-lg-2 {
+      margin-bottom: 1.5rem;
+      @media (min-width: 1281px) {
+        & {
+          margin-right: 1rem;
+        }
+      }
+    }
+    .section-item {
+      text-align: center;
+  
+      .section-body-icon {
+        width: 135px;
+      }
+  
+      .icon-title {
+        font-size: 1rem;
+      }
+    }
+  }
+
 }
 
