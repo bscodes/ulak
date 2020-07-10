@@ -8,6 +8,10 @@ body, html {
   height: 100%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .App {
   text-align: center;
   height: 100vh;
@@ -519,6 +523,72 @@ body, html {
   
       .icon-title {
         font-size: 1rem;
+      }
+    }
+
+
+  }
+
+  .cati-wrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+
+    @media only screen and (max-width: 768px) {
+      & {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    }
+
+    @media only screen and (max-width: 812px) and (orientation: landscape) {
+      & {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    }
+    .cati {
+      padding: 5%;
+      .section-body-icon {
+        width: 100%;
+      }
+
+      .icon-title {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: auto;
+        transform: translate(-50%, -50%);
+
+        @media (min-width: 1281px) {
+          & {
+            font-size: 1rem;
+          }
+        }
+
+        @media only screen and (max-width: 768px) {
+          & {
+            top: 55%;
+          }
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          & {
+            top: 55%;
+            font-size: .8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .second-section-wrapper {
+    background-color: #e7e7e7;
+    
+    .section-title {
+      @media only screen and (max-width: 768px) {
+        & {
+          font-size: 1.5rem;
+        }
       }
     }
   }

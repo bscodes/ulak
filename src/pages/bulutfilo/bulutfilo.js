@@ -66,7 +66,6 @@ const bulutfilo = () => {
             </div>  
           </div>
         </div>
-
         <div className="icon-wrapper">
           <div className="container mt-4 mb-4">
             <div className="row no-gutters">

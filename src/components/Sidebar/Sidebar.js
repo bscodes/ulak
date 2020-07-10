@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import { slide as Menu } from "react-burger-menu";
 
 import icon from '../../image/hamburger-icon.png'
@@ -13,19 +14,19 @@ export default props => {
       customCrossIcon={ <img src={cross} alt="" /> } 
       right>
       <hr className="line "/>
-      <a className="menu-item" href="/hakkimizda">
+      <Link className="menu-item" to="/hakkimizda">
         HAKKIMIZDA
-      </a>
+      </Link>
       <hr className="line "/>
       <Accordion/>
       <hr className="line "/>
-      <a className="menu-item" href="/yetkinlik">
+      <Link className="menu-item" to="/">
         PROJE YETKİNLİKLERİMİZ
-      </a>
+      </Link>
       <hr className="line "/>
-      <a className="menu-item" href="/iletisim">
+      <Link className="menu-item" to="/iletisim">
         İLETİŞİM
-      </a>
+      </Link>
     </Menu>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
- 
+import { Link } from 'react-router-dom'
 import Collapsible from 'react-collapsible';
  
  
@@ -10,27 +10,27 @@ const AccordionMenu = () => {
         <div className="row">
           <div className="col-lg-12 mt-2 mb-2">
             <hr className="line"/>
-            <a href="/stratejikplan" className="acc-link">
+            <Link to="/stratejikplan" className="acc-link">
             Stratejik Plan
-            </a>
+            </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12 mb-2">
-            <a href="/bulutfilo" className="acc-link">
+            <Link to="/bulutfilo" className="acc-link">
               Bulut Filo
-            </a>
+            </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12 mb-2">
-            <a href="/drive" className="acc-link">
+            <Link to="/drive" className="acc-link">
             Drive
-            </a>
+            </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12 mb-2">
-            <a href="/scada" className="acc-link">
+            <Link to="/scada" className="acc-link">
             Scada
-            </a>
+            </Link>
           </div>
         </div>
       </div>

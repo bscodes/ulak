@@ -19,8 +19,8 @@ const hakkimizda = () => {
           <div className="section-body mt-5 mb-5">
             <p className="section-body-text text-left ">
               Hizmet yazılımlarının, Türkiye'de üretilecek şekilde
-              gerekli insan kaynağını ve firmaları bulmak
-              ve bu kişi, ekip ve firmaları bir ortak bir değer oluşturmak.
+              gerekli insan kaynağını, firmaları bulmak
+              ve bu kişi, ekip ve firmaları ortak bir değer oluşturmak.
               Kurum ve kuruluşlarda yazılımların bu değerlere
               dönüştürülmesini sağlamak üzere toplanmış bir ekibiz.
             </p>
