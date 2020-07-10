@@ -1,4 +1,7 @@
 import React from 'react';
+import CatiAccordion from '../../components/Accordion/CatiAccordion'
+
+/* images */
 import donusum from '../../image/donusum.png';
 import catiheader from '../../image/catiheader.png';
 import blogzinciri from '../../image/blogzinciri.png';
@@ -79,6 +82,15 @@ const dijitalcati = () => {
                 <h2 className="section-title mt-4">
                   DİJİTAL TEK ÇATI UYGULAMALARI
                 </h2>
+              </div>
+            </div>
+          </div>
+        </div>           
+        <div className="container-fluid">
+          <div className="row no-gutters">
+            <div className="second-section w-100">
+              <div className="col-lg-12">
+                <CatiAccordion/>
               </div>
             </div>
           </div>
