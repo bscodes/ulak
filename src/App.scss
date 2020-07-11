@@ -8,9 +8,7 @@ body, html {
   height: 100%;
 }
 
-.w-100 {
-  width: 100%;
-}
+
 
 .App {
   text-align: center;
@@ -150,7 +148,6 @@ body, html {
    cursor: pointer;
    color: #d1d1d1;
    font-size: .9rem;
-   text-align: center;
    text-transform: uppercase;
 
    .acc-link {
@@ -196,6 +193,8 @@ body, html {
   background: #363536;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  text-align: center;
+  overflow: hidden !important;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -583,13 +582,60 @@ body, html {
 
   .second-section-wrapper {
     background-color: #e7e7e7;
-    
-    .section-title {
-      @media only screen and (max-width: 768px) {
-        & {
-          font-size: 1.5rem;
+    padding: 5%;
+
+    @media (min-width: 1281px) {
+      & {
+        padding-left: 21%;
+        padding-right: 21%;
+      }
+    }
+
+    .second-section-title-wrapper {
+      text-align: center;
+
+      .section-title {
+        @media only screen and (max-width: 768px) {
+          & {
+            font-size: 1.5rem;
+          }
         }
       }
+    }
+
+
+    .cati-accordion {
+      border: 1px solid red;
+
+      .acc-header {
+        .acc-image-holder {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          @media (min-width: 1281px) {
+            & {
+              margin-left: 140px;
+            }
+          }
+          
+
+          @media only screen and (max-width: 768px) {
+            & {
+              margin-left: 40px;
+            }
+          }
+        }
+      }
+
+      .acc-text-holder {
+        @media (min-width: 1281px) {
+          & {
+            margin-left: 250px;
+          }
+        }
+      }
+
     }
   }
 

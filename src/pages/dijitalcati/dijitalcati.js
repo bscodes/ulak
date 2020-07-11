@@ -74,10 +74,10 @@ const dijitalcati = () => {
           </div>
         </div>
       </div>
-      <div className="second-section-wrapper text-center">           
+      <div className="second-section-wrapper">           
         <div className="container-fluid">
           <div className="row no-gutters">
-            <div className="second-section w-100">
+            <div className="second-section-title-wrapper w-100">
               <div className="col-lg-12">
                 <h2 className="section-title mt-4">
                   DİJİTAL TEK ÇATI UYGULAMALARI
@@ -88,9 +88,12 @@ const dijitalcati = () => {
         </div>           
         <div className="container-fluid">
           <div className="row no-gutters">
-            <div className="second-section w-100">
-              <div className="col-lg-12">
-                <CatiAccordion/>
+            <div className="second-section w-100 mb-5">
+              <div className="container">
+                <div className="row">
+                  <CatiAccordion/>
+                </div>
+                
               </div>
             </div>
           </div>
