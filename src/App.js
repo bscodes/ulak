@@ -7,6 +7,7 @@ import Home from './pages/home/home';
 import hakkimizda from './pages/hakkimizda/hakkimizda';
 import bulutfilo from './pages/bulutfilo/bulutfilo';
 import dijitalcati from './pages/dijitalcati/dijitalcati';
+import stratejikplan from './pages/stratejikplan/stratejikplan';
 
 /* components */
 import Navbar from './components/Navbar/Navbar';
@@ -31,6 +32,9 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/cati" component={dijitalcati}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/stratejikplan" component={stratejikplan}/>
       </Switch>
       <Footer/>
     </Router>

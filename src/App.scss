@@ -524,6 +524,7 @@ body, html {
         font-size: 1rem;
       }
     }
+    
 
 
   }
@@ -547,6 +548,9 @@ body, html {
     }
     .cati {
       padding: 5%;
+
+
+
       .section-body-icon {
         width: 100%;
       }
@@ -578,6 +582,75 @@ body, html {
         }
       }
     }
+  }
+
+  .stratejik-wrapper {
+    padding: 0;
+    .stratejik {
+      .icon-title {
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        width: auto;
+        transform: translate(-50%, -50%);
+
+        @media (min-width: 1281px) {
+          & {
+            font-size: 1rem;
+            width: 80%;
+            padding-left: 5%;
+            padding-right: 5%;
+          }
+        }
+
+        @media only screen and (max-width: 768px) {
+          & {
+            top: 35%;
+            width: 80%;
+          }
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          & {
+            top: 55%;
+            font-size: .8rem;
+          }
+        }
+      }
+
+      .rozet-info-wrapper {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: auto;
+        transform: translate(-50%, 0%);
+
+        @media only screen and (max-width: 768px) {
+          & {
+            top: 48%;
+            width: 80%;
+            transform: translate(-52%, 0%);
+          }
+        }
+
+        .rozet-info {
+          font-size: 95%;
+        }
+      }
+
+    }
+  }
+
+  .rozet1 {
+    color: #e38479 !important;
+  }
+
+  .rozet2 {
+    color: #a74fac !important;
+  }
+
+  .rozet3 {
+    color: #0066c3 !important;
   }
 
   .second-section-wrapper {
