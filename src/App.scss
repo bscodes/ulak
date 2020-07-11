@@ -638,6 +638,13 @@ body, html {
                 font-size: .8rem;
               }
             }
+
+            @media only screen and (max-width: 812px) and (orientation: landscape) {
+              .acc-title {
+                font-size: 1rem;
+                width: 350px;
+              }
+            }
             
           }
         }
