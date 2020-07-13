@@ -2,7 +2,7 @@ import React from 'react';
 import driveHeader from '../../image/drive-header.png';
 
 
-const hakkimizda = () => {
+const drive = () => {
   return(
   <>
     <div className="section-wrapper">
@@ -54,4 +54,4 @@ const hakkimizda = () => {
   );
 }
 
-export default hakkimizda;
+export default drive;

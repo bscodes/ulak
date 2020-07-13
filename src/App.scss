@@ -461,7 +461,8 @@ body, html {
       width: 30%;
       transform: translate(-50%, -50%);
 
-      &.drive-title {
+      &.drive-title,
+      &.scada-title {
         top: 30%;
 
         @media only screen and (max-width: 768px) {
@@ -477,6 +478,24 @@ body, html {
         }
 
       }
+      @media (min-width: 1281px) {
+        &.scada-title {
+          width: 50%;
+        }
+      }
+
+      @media (min-width: 1281px) {
+        &.iletisim-title {
+          top: 36%;
+        }
+      }
+
+      @media only screen and (max-width: 768px) {
+        & {
+          top: 77%;
+        }
+      }
+      
     }
 
     .header-title {
@@ -791,6 +810,22 @@ body, html {
         }
       }
 
+    }
+  }
+
+  &.iletisim-wrapper {
+    background: #333333;
+
+    .contact-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .contact-icon {
+      width: 30px;
+      height: 100%;
+      margin-top: 5px;
+      margin-right: 20px;
     }
   }
 

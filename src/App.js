@@ -9,6 +9,8 @@ import bulutfilo from './pages/bulutfilo/bulutfilo';
 import dijitalcati from './pages/dijitalcati/dijitalcati';
 import stratejikplan from './pages/stratejikplan/stratejikplan';
 import drive from './pages/drive/drive';
+import scada from './pages/scada/scada';
+import iletisim from './pages/iletisim/iletisim';
 
 /* components */
 import Navbar from './components/Navbar/Navbar';
@@ -39,6 +41,12 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/drive" component={drive}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/scada" component={scada}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/iletisim" component={iletisim}/>
       </Switch>
       <Footer/>
     </Router>
