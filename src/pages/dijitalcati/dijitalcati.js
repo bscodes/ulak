@@ -32,9 +32,9 @@ const dijitalcati = () => {
           <div className="col-lg-12">
             <div className="section-header">
               <img src={catiheader} alt="" className="section-header-image"/>
-                <h1 className="header-title text-light text-center">
-                  DİJİTAL TEK ÇATI
-                </h1>
+              <h1 className="header-title text-light text-center">
+                DİJİTAL TEK ÇATI
+              </h1>
             </div>  
           </div>
         </div>

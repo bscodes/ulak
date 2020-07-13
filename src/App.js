@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.scss';
 
 /* pages */
-import Home from './pages/home/home';
+import home from './pages/home/home';
 import hakkimizda from './pages/hakkimizda/hakkimizda';
 import bulutfilo from './pages/bulutfilo/bulutfilo';
 import dijitalcati from './pages/dijitalcati/dijitalcati';
 import stratejikplan from './pages/stratejikplan/stratejikplan';
+import drive from './pages/drive/drive';
 
 /* components */
 import Navbar from './components/Navbar/Navbar';
@@ -22,7 +23,7 @@ function App() {
       <Navbar/>
       
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/" component={home}/>
       </Switch>
       <Switch>
         <Route exact path="/hakkimizda" component={hakkimizda}/>
@@ -35,6 +36,9 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/stratejikplan" component={stratejikplan}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/drive" component={drive}/>
       </Switch>
       <Footer/>
     </Router>

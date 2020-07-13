@@ -460,6 +460,23 @@ body, html {
       left: 50%;
       width: 30%;
       transform: translate(-50%, -50%);
+
+      &.drive-title {
+        top: 30%;
+
+        @media only screen and (max-width: 768px) {
+          & {
+            top: 50%;
+          }
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          & {
+            top: 50%;
+          }
+        }
+
+      }
     }
 
     .header-title {
@@ -477,6 +494,23 @@ body, html {
       @media only screen and (max-width: 812px) and (orientation: landscape) {
         & {
           padding-top: 0;
+        }
+      }
+
+      /* styles for drive page */
+      &.drive-title {
+        font-size: 5rem;
+
+        @media only screen and (max-width: 768px) {
+          & {
+              font-size: 1.5rem;
+          }
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          & {
+            font-size: 2.5rem;
+          }
         }
       }
     }
@@ -499,7 +533,16 @@ body, html {
         }
       }
     }
+
+    &.drive {
+      .section-body-text {
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+    }
   }
+
+  
 
   .icon-wrapper {
     .row {
