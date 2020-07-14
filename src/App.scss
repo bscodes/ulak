@@ -816,16 +816,61 @@ body, html {
   &.iletisim-wrapper {
     background: #333333;
 
+    @media only screen and (max-width: 812px) and (orientation: landscape) {
+      .section-header {
+        .header-title {
+          padding-top: 16%;
+        }
+      }
+    }
+
+
     .contact-wrapper {
       display: flex;
       flex-direction: row;
+      margin-bottom: 10px;
+
+      .contact-thumb {
+        width: 25px;
+        margin-bottom: 3%;
+
+        .contact-icon {
+        max-width: 100%;
+
+        &.pin {
+          margin-top: 5px;
+        }
+        }
+      }
+
+      .contact-contact {
+        width: calc(100% - 78px);
+        padding-left: 20px;
+      }
+
+      
     }
 
-    .contact-icon {
-      width: 30px;
-      height: 100%;
-      margin-top: 5px;
-      margin-right: 20px;
+    .contact-form {
+
+      .form-control {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+        padding-bottom: 0;
+        color: white;
+      }
+      @media (min-width: 1281px) {
+        textarea.form-control {
+          height: 124px;
+        }
+      }
+      
+      .submit-button {
+        display: flex;
+        justify-content: flex-end;
+      }
     }
   }
 
