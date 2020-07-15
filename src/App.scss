@@ -63,6 +63,8 @@ body, html {
     background-size: cover;
 
     @media only screen and (max-width: 768px) {
+      background-image: none;
+      background-color: #000000;
       min-height: auto;
       background-size: auto;
       background-attachment: unset;
