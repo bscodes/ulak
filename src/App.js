@@ -11,6 +11,7 @@ import stratejikplan from './pages/stratejikplan/stratejikplan';
 import drive from './pages/drive/drive';
 import scada from './pages/scada/scada';
 import iletisim from './pages/iletisim/iletisim';
+import fintech from './pages/fintech/fintech';
 
 /* components */
 import Navbar from './components/Navbar/Navbar';
@@ -49,6 +50,9 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/iletisim" component={iletisim}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/fintech" component={fintech}/>
       </Switch>
       <Footer/>
     </Router>
