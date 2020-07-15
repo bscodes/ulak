@@ -20,10 +20,6 @@ export default props => {
       <hr className="line "/>
       <Accordion/>
       <hr className="line "/>
-      <Link className="menu-item" to="/">
-        PROJE YETKİNLİKLERİMİZ
-      </Link>
-      <hr className="line "/>
       <Link className="menu-item" to="/iletisim">
         İLETİŞİM
       </Link>

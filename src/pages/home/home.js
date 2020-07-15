@@ -104,23 +104,28 @@ const Home = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-sm-6">
+                <Link to="/parmakizi" className="proje-link">
                 <div className="middle-item">
                   <img src={parmak} alt="" className="item-image"/>
                   <h4 className="item-title">
                     PARMAK İZİ ONAY SÜRECİ
                   </h4>
                 </div>
+                </Link>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-sm-6">
+                <Link to="/eksigorta" className="proje-link">
                 <div className="middle-item">
                   <img src={sigorta} alt="" className="item-image"/>
                   <h4 className="item-title">
                     HİZMETLERDE EK SİGORTA ÜRÜNÜ
                   </h4>
                 </div>
+                </Link>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-sm-6">
+                <Link to="/noktabakim" className="proje-link">
                 <div className="middle-item">
                   <img src={sahaurun} alt="" className="item-image"/>
                   <h4 className="item-title">
@@ -128,14 +133,17 @@ const Home = () => {
                     ÇÖZÜM YÖNETİMİ
                   </h4>
                 </div>
+                </Link>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-sm-6">
+                <Link to="/fintech" className="proje-link">
                 <div className="middle-item">
                   <img src={fintech} alt="" className="item-image"/>
                   <h4 className="item-title">
                     FINTECH ÜRÜN YÖNETİMİ
                   </h4>
                 </div>
+                </Link>
               </div>
             </div>
           </div>

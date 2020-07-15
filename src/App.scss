@@ -16,6 +16,14 @@ body, html {
 }
 
 
+.proje-link {
+  color: white;
+
+  &:hover {
+    color: #d6d6d6;
+  }
+}
+
 .hero-image {
   width: 100%;
   opacity: 0.6;
@@ -128,7 +136,6 @@ body, html {
 
   /* Our sidebar item styling */
   text-decoration: none;
-  margin-bottom: 10px;
   color: #d1d1d1;
   transition: color 0.2s;
   font-size: .9rem;
@@ -335,14 +342,15 @@ body, html {
       .hero-text {
         position: absolute;
         top: 50%;
-        left: 18%;
+        left: 20%;
         font-size: 2rem;
         transform: translate(-50%, -50%);
         font-weight: 900;
 
         @media only screen and (max-width: 768px) {
           & {
-            left: 34%;
+            left: 40%;
+            width: 100%;
           }
         }
 
@@ -363,6 +371,13 @@ body, html {
           left: 9%;
           font-size: 1.5rem;
           font-weight: 900;
+          padding-right: 5%;
+
+          @media only screen and (max-width: 768px) {
+            & {
+              font-size: 1.2rem;
+            }
+          }
         }
 
         .first {
@@ -404,6 +419,36 @@ body, html {
 
     .middle-item {
 
+      @media only screen and (max-width: 768px) {
+        & {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 5%;
+
+          .item-image {
+            width: 300px;
+          }
+
+          .item-title {
+            width: 200px;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 812px) and (orientation: landscape) {
+        & {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 5%;
+          
+          .item-image {
+            width: 100%;
+          }
+        }
+      }
+
       @media (min-width: 1281px) {
         & {
           width: 250px;
@@ -424,10 +469,6 @@ body, html {
             }
           }
         }
-      }
-
-      .item-image {
-        width: 100%;
       }
 
 
@@ -595,10 +636,172 @@ body, html {
     padding-left: 20%;
     padding-right: 20%;
 
+    &.scada-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+
+      @media (min-width: 1281px) {
+        & {
+          margin-bottom: 13rem;
+        }
+      }
+      
+
+      .title-wrapper {
+        &.pp-1 {
+          position: absolute;
+          width: 68%;
+          top: 65%;
+          left: 45%;
+          transform: translate(-50%, -50%);
+
+          @media only screen and (max-width: 768px) {
+            & {
+              width: 69%;
+              top: 57%;
+              left: 48%;
+            }
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            & {
+              width: 69%;
+              top: 57%;
+              left: 48%;
+            }
+          }
+        }
+
+        &.pp-2 {
+          position: absolute;
+          width: 68%;
+          top: 49%;
+          left: 47%;
+          transform: translate(-50%, -50%);
+
+          @media only screen and (max-width: 768px) {
+            & {
+              width: 57%;
+              top: 56%;
+              left: 48%;
+            }
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            & {
+              width: 62%;
+              top: 57%;
+              left: 52%;
+            }
+          }
+        }
+
+        &.pp-3 {
+          position: absolute;
+          width: 68%;
+          top: 61%;
+          left: 45%;
+          transform: translate(-50%, -50%);
+
+
+          @media only screen and (max-width: 768px) {
+            & {
+              width: 71%;
+              top: 55%;
+              left: 48%;
+            }
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            & {
+              width: 60%;
+              top: 57%;
+              left: 45%;
+            }
+          }
+        }
+
+        &.pp-4 {
+          position: absolute;
+          width: 68%;
+          top: 50%;
+          left: 45%;
+          transform: translate(-50%, -50%);
+
+          @media only screen and (max-width: 768px) {
+            & {
+              width: 62%;
+              top: 57%;
+              left: 46%;
+            }
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            & {
+              width: 57%;
+              top: 60%;
+              left: 46%;
+            }
+          }
+        }
+
+        &.pp-5 {
+          position: absolute;
+          width: 68%;
+          top: 62%;
+          left: 53%;
+          transform: translate(-50%, -50%);
+
+          @media only screen and (max-width: 768px) {
+            & {
+              width: 65%;
+              top: 55%;
+              left: 52%;
+            }
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            & {
+              width: 53%;
+              top: 57%;
+              left: 51%;
+            }
+          }
+        }
+        
+
+        .scada-title {
+          font-size: .8rem;
+
+          @media (min-width: 1281px) {
+            & {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      & {
+        .section-item {
+
+          @media (min-width: 1281px) {
+            & {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+
     @media only screen and (max-width: 768px) {
       & {
         padding-left: 10%;
         padding-right: 10%;
+      }
+
+      &.scada-wrapper {
+        padding-left: 15%;
+        padding-right: 15%;
       }
     }
 
@@ -607,12 +810,23 @@ body, html {
         padding-left: 10%;
         padding-right: 10%;
       }
+
+      &.scada-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
     .cati {
       padding: 5%;
 
+      @media (min-width: 1281px) {
+        &.p-top {
+          padding-top: 30%;
 
-
+        }
+      }
+      
+    
       .section-body-icon {
         width: 100%;
       }
@@ -623,6 +837,8 @@ body, html {
         left: 50%;
         width: auto;
         transform: translate(-50%, -50%);
+
+        
 
         @media (min-width: 1281px) {
           & {

@@ -1,24 +1,44 @@
 import React from 'react';
 
 /* images */
-import donusum from '../../image/donusum.png';
 import scadaHeader from '../../image/scada-header.png';
-import blogzinciri from '../../image/blogzinciri.png';
-import uygulamalar from '../../image/uygulamalar.png';
+import cerceve1 from '../../image/cerceve1.png';
+import cerceve2 from '../../image/cerceve2.png';
+import cerceve3 from '../../image/cerceve3.png';
+import cerceve4 from '../../image/cerceve4.png';
+import cerceve5 from '../../image/cerceve5.png';
 
 export const icons = [
   {
     "id": "1",
-    "icon": donusum,
-    "title": "DİJİTAL DÖNÜŞÜM STRATEJİLERİNİN BELİRLENMESİ"
+    "icon": cerceve1,
+    "class": "p-top",
+    "titleClass": "pp-1",
+    "title": "GİRİŞTE OKUTULAN KART SONRASINDA, SİSTEM KENDİ ÜZERİNDEKİ DATABASE'DEN KİŞİNİN YETKİSİNE BAKARAK ELEKTRONİK KİLİDE CEVAP VERİR"
   },{
     "id": "2",
-    "icon": blogzinciri,
-    "title": "BLOK ZİNCİRİ PLATFORMUNUN KURULMASI"
+    "icon": cerceve2,
+    "class": "p-bottom",
+    "titleClass": "pp-2",
+    "title": "GİRİŞ YAPAN KİŞİ BİLGİSİ SERVERA GİDER."
   },{
     "id": "3",
-    "icon": uygulamalar,
-    "title": "UYGULAMALAR VE DÖNÜŞÜMÜN YAPILMASI VE YÖNETİLMESİ"
+    "icon": cerceve3,
+    "class": "p-top",
+    "titleClass": "pp-3",
+    "title": "KAMERADAN GİRİŞ YAPAN KİŞİ VEYA KİŞİLERİN FOTOĞRAFI ÇEKİLEREK SERVER'A EKLENİR."
+  },{
+    "id": "4",
+    "icon": cerceve4,
+    "class": "p-bottom",
+    "titleClass": "pp-4",
+    "title": "KART ÇALINMASI VEYA KAYBOLMASI DURUMUNDA SİSTEMLERDEKİ VERİTABANINDAN İLGİLİ KART ID'Sİ BLACK LIST'E ALINIR, GİRİŞE İZİN VERİLMEZ. "
+  },{
+    "id": "5",
+    "icon": cerceve5,
+    "class": "p-top",
+    "titleClass": "pp-5",
+    "title": "ÇALINAN KART SİSTEMDE OKUTULDUĞU ANDA ALARM GELİR VE GÜVENLİK GÜÇLERİNE HABER VERİLİR."
   }
 ]
 const scada = () => {
@@ -43,7 +63,7 @@ const scada = () => {
           <div className="col-lg-12">
             <div className="section-body mt-5 mb-5">
               <p className="section-body-text text-left ">
-              Dijital tek çatı Kurum ve Kuruluşların sistemlerinin en üst kapmanda vatandaşa yönetiminin olduğu en alt katmanda da tüm system güvenliği ve verisinin Blok zinciri ile birbirine bağladığı Yerli/Milli’ye dijital dönüşüm hareketidir.
+                SAHADA BULUNAN VE UZAK ERİŞİMİ OLMAYAN CİHAZLARI YÖNETEBİLEN, SENSÖRLER VE KAMERA YARDIMI İLE SAHAYI MAKSİMUM DERECEDE GÜVENLİ HALE GETİREN "SAHA GÜVENLİK VE YÖNETİM SİSTEMİ"DİR
               </p>
             </div>  
           </div>
@@ -52,10 +72,26 @@ const scada = () => {
       <div className="container-fluid">
         <div className="row no-gutters">
           <div className="col-lg-12">
-            <div className="icon-wrapper cati-wrapper" >
-              <div className="container mt-4 mb-5">
+            <div className="icon-wrapper cati-wrapper scada-wrapper" >
+              <div className="container-fluid mt-4 mb-5">
                 <div className="row no-gutters">
-                  yeni tasarım gelecek 
+                  {
+                    icons.map(i => (
+                      <div className="col-lg-2 col-sm-4" key={i.id}>
+                        <div className={"section-item cati "+ i.class}>
+                          <img src={i.icon} alt="" className="section-body-icon"/>
+                          {/* <h5 className="icon-title scada-title text-dark text-left mt-4">
+                            {i.title}
+                          </h5> */}
+                        </div>
+                        <div className={"title-wrapper " + i.titleClass}>
+                          <h5 className="icon-title scada-title text-dark text-left mt-4">
+                            {i.title}
+                          </h5>
+                        </div>  
+                      </div>
+                    ))
+                  }
                 </div>
               </div>
             </div>
