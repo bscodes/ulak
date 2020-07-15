@@ -65,11 +65,9 @@ body, html {
     @media only screen and (max-width: 768px) {
       background-image: none;
       background-color: #000000;
-      min-height: auto;
-      background-size: auto;
-      background-attachment: unset;
+      
     }
-    @media only screen and (max-width: 812px) and (orientation: landscape) {
+    @media only screen and (max-width: 850px) and (orientation: landscape) {
       & {
         background-size: auto;
       }
