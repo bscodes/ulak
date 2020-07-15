@@ -61,7 +61,9 @@ const iletisim = () => {
                   </div>
               </div>
               <div className="col-lg-6">
-                <YandexMap/>
+                <div className="ymaps-wrapper">
+                  <YandexMap/>
+                </div>
               </div>
               <div className="col-lg-12">
                 <div className="contact-form mt-5 mb-5">

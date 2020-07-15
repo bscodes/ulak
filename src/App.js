@@ -16,11 +16,13 @@ import iletisim from './pages/iletisim/iletisim';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Hamburger from './components/Sidebar/Sidebar'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <>
     <Router>
+      <ScrollToTop/>
       <Hamburger />
       <Navbar/>
       

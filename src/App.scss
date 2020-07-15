@@ -872,6 +872,20 @@ body, html {
         justify-content: flex-end;
       }
     }
+
+    .ymaps-wrapper {
+      @media only screen and (max-width: 768px) {
+        & {
+          margin-top: 2rem;
+        }
+      }
+
+      @media only screen and (max-width: 812px) and (orientation: landscape) {
+        & {
+          margin-top: 1rem;
+        }
+      }
+    }
   }
 
 }
