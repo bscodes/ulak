@@ -27,6 +27,10 @@ body, html {
 .hero-image {
   width: 100%;
   opacity: 0.6;
+
+
+
+
 }
 
 .navbar-wrapper {
@@ -177,6 +181,14 @@ body, html {
   height: 56px;
   right: 22px;
   top: 94px;
+  @media only screen and (max-width: 768px) {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 21px;
+  }
+
 }
 
 /* Color/shape of burger icon bars */
@@ -324,7 +336,8 @@ body, html {
 
 
       .one-bar {
-
+        position: relative;
+        
         @media (min-width: 1281px)  {
           &::before {
             background: linear-gradient(to bottom, rgba(26,112,9,1) 0%, rgba(21,195,214,1) 51%, rgba(223,225,94,1) 100%);
@@ -341,22 +354,22 @@ body, html {
 
       .hero-text {
         position: absolute;
+        text-align: left;
+        padding-left: 35px;
+        left: 0;
         top: 50%;
-        left: 20%;
+        width: 100%;
         font-size: 2rem;
-        transform: translate(-50%, -50%);
         font-weight: 900;
 
         @media only screen and (max-width: 768px) {
           & {
-            left: 40%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding-left: 0;
+            left: 50%;
+            top: 50%;
             width: 100%;
-          }
-        }
-
-        @media only screen and (max-width: 812px) and (orientation: landscape) {
-          & {
-            left: 22%;
           }
         }
 
@@ -375,19 +388,23 @@ body, html {
 
           @media only screen and (max-width: 768px) {
             & {
-              font-size: 1.2rem;
+              text-align: center;
+              left: 0;
+              padding: 5%;
+              width: 100%;
             }
           }
         }
 
         .first {
-          left: 8%;
 
-          @media only screen and (max-width: 812px) and (orientation: landscape) {
+          @media (min-width: 1281px)  {
             & {
-              left: 10%;
+              left: 8%;
             }
           }
+          
+          
         }
       }
     }

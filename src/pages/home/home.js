@@ -23,7 +23,7 @@ const Home = () => {
         <section className="hero-section">
           <div className="container-fluid">
             <div className="row no-gutters">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-sm-12">
                 <div className="left-bar">
                   <Link to="/hakkimizda" className="hero-router">
                     <img src={a2} alt="" className="hero-image"/>
@@ -37,10 +37,10 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-sm-12">
                 <div className="right-bar">
                   <div className="row no-gutters">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 col-sm-12">
                       <div className="one-bar gradient">
                         <Link to="/cati" className="hero-router">
                           <img src={cati} alt="" className="hero-image"/>
@@ -48,7 +48,7 @@ const Home = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-6">
                       <div className="four-bar gradient">
                         <Link to="/stratejikplan" className="hero-router">
                           <img src={strateji} alt="" className="hero-image"/>
@@ -59,7 +59,7 @@ const Home = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-6">
                       <div className="four-bar gradient">
                         <Link to="/bulutfilo" className="hero-router">
                           <img src={filo} alt="" className="hero-image"/>
@@ -69,7 +69,7 @@ const Home = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-6">
                       <div className="four-bar gradient">
                         <Link to="/drive" className="hero-router">
                           <img src={drive} alt="" className="hero-image"/>
@@ -77,7 +77,7 @@ const Home = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-6">
                       <div className="four-bar gradient">
                         <Link to="/scada" className="hero-router">
 
