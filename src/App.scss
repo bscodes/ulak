@@ -61,7 +61,10 @@ body, html {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
+    @media only screen and (max-width: 768px) {
+      background-image: url('./image/footer-mobile.jpg');
+      min-height: auto;
+    }
     @media only screen and (max-width: 812px) and (orientation: landscape) {
       & {
         background-size: auto;
