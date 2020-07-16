@@ -12,6 +12,8 @@ import drive from './pages/drive/drive';
 import scada from './pages/scada/scada';
 import iletisim from './pages/iletisim/iletisim';
 import fintech from './pages/fintech/fintech';
+import parmakizi from './pages/parmakizi/parmakizi';
+import sahaurun from './pages/sahaurun/sahaurun';
 
 /* components */
 import Navbar from './components/Navbar/Navbar';
@@ -53,6 +55,12 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/fintech" component={fintech}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/parmakizi" component={parmakizi}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/noktabakim" component={sahaurun}/>
       </Switch>
       <Footer/>
     </Router>

@@ -1,0 +1,58 @@
+.section-wrapper.saha-wrapper {
+  .header-title {
+    width: 60%;
+  }
+
+  .section-body-wrapper {
+    background: linear-gradient(to bottom, rgba(42,16,81,1) 0%, rgba(63,15,174,1) 100%);
+    .section-body {
+
+      @media (min-width: 1281px) {
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+    }
+    .section-body-text {
+      padding-left: 0;
+      padding-right: 0;
+
+      @media (min-width: 1281px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    .section-body-title {
+      position: relative;
+      color: #000000;
+
+      @media (min-width: 1281px) {
+        margin-bottom: 2.3rem;
+      }
+
+      @media only screen and (max-width: 768px) {
+        margin-bottom: 1rem;
+      }
+
+      .title-title {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+
+        @media only screen and (max-width: 768px) {
+          font-size: 1.2rem;
+        }
+        @media (min-width: 1281px) {
+          font-size: 1.5rem;
+        }
+
+      }
+
+      .title-image {
+        width: 100%;
+      }
+    }
+  }
+}
