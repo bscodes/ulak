@@ -14,6 +14,7 @@ import iletisim from './pages/iletisim/iletisim';
 import fintech from './pages/fintech/fintech';
 import parmakizi from './pages/parmakizi/parmakizi';
 import sahaurun from './pages/sahaurun/sahaurun';
+import eksigorta from './pages/eksigorta/eksigorta';
 
 /* components */
 import Navbar from './components/Navbar/Navbar';
@@ -61,6 +62,9 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/noktabakim" component={sahaurun}/>
+      </Switch>
+      <Switch>
+        <Route exact path="/eksigorta" component={eksigorta}/>
       </Switch>
       <Footer/>
     </Router>
