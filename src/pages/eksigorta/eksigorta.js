@@ -56,7 +56,7 @@ const stratejikplan = () => {
                     </div>
                     <div className="inner-title-wrapper">
                         <h5 className="inner-title text-center">
-                            İSTEMDIŞI İSŞSİZLİK
+                            İSTEMDIŞI İŞSİZLİK
                             VE GELİR KORUMA SİGORTASI
                         </h5>
                     </div>
