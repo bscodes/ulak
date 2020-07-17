@@ -40,14 +40,14 @@ const Home = () => {
               <div className="col-lg-6 col-sm-12">
                 <div className="right-bar">
                   <div className="row no-gutters">
-                    <div className="col-lg-12 col-sm-12">
+                    {/* <div className="col-lg-12 col-sm-12">
                       <div className="one-bar gradient">
                         <Link to="/cati" className="hero-router">
                           <img src={cati} alt="" className="hero-image"/>
                           <h3 className="hero-text">DİJİTAL ÇATI</h3>
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6 col-sm-6">
                       <div className="four-bar gradient">
                         <Link to="/stratejikplan" className="hero-router">
@@ -96,6 +96,25 @@ const Home = () => {
         </section>
         <section className="middle pb-5">
           <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="digital-cati-wrapper gradient mt-5">
+                  <Link to="/cati" className="hero-router"
+                        style={{
+                          "display":"grid",
+                          "color": "white"
+                        }}
+                      >
+                      <div className="cati-image-wrapper">
+                        
+                          <img src={cati} alt="" className="cati-image"/>
+                          <h3 className="cati-banner-text">DİJİTAL ÇATI</h3>
+                      </div>
+                    </Link>
+                  
+                </div>
+              </div>
+            </div>
             <div className="row">
               <div className="col-lg-12">
                 <h1 className="middle-title text-center mt-4 mb-4">

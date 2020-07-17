@@ -417,7 +417,43 @@ body, html {
   .middle {
 
     background: linear-gradient(to bottom, rgba(79,78,79,1) 0%, rgba(0,0,0,1) 100%);
+    .digital-cati-wrapper {
 
+      position: relative;
+        
+        @media (min-width: 1281px)  {
+          &::before {
+            background: linear-gradient(to bottom, rgba(26,112,9,1) 0%, rgba(21,195,214,1) 51%, rgba(223,225,94,1) 100%);
+          }
+    
+          &:hover::before {
+            height: 100%;
+            opacity: .5;
+            transition:  0.5s ease-out;
+          }
+        }
+
+      .cati-image-wrapper {
+        display: grid;
+        place-items: center;
+        position: relative;
+
+        .cati-image {
+          width: 100%;
+          opacity: 0.6;
+        }
+
+        .cati-banner-text {
+          position: absolute;
+          font-weight: 800;
+          margin-bottom: 0;
+
+          @media (min-width: 1281px) {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
     .middle-title {
       font-weight: 900;
 

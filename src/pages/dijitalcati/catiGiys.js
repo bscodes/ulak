@@ -1,28 +1,12 @@
 import React from 'react';
-import CatiAccordion from '../../components/Accordion/CatiAccordion'
+import CatiAccordion from '../../components/Accordion/GiysAcc';
 
 /* images */
-import donusum from '../../image/donusum.png';
-import catiheader from '../../image/catiheader.png';
-import blogzinciri from '../../image/blogzinciri.png';
-import uygulamalar from '../../image/uygulamalar.png';
 
-export const icons = [
-  {
-    "id": "1",
-    "icon": donusum,
-    "title": "DİJİTAL DÖNÜŞÜM STRATEJİLERİNİN BELİRLENMESİ"
-  },{
-    "id": "2",
-    "icon": blogzinciri,
-    "title": "BLOK ZİNCİRİ PLATFORMUNUN KURULMASI"
-  },{
-    "id": "3",
-    "icon": uygulamalar,
-    "title": "UYGULAMALAR VE DÖNÜŞÜMÜN YAPILMASI VE YÖNETİLMESİ"
-  }
-]
-const dijitalcati = () => {
+import catiheader from '../../image/catiheader.png';
+
+
+const catiSantral = () => {
 
   return(
   <>
@@ -47,30 +31,6 @@ const dijitalcati = () => {
               DIJITAL TEK ÇATI KURUM VE KURULUŞLARIN SİSTEMLERİNİN EN ÜST KAPMANDA VATANDAŞA YÖNETİMİNİN OLDUĞU EN ALT KATMANDA DA TÜM SYSTEM GÜVENLİĞİ VE VERİSİNİN BLOK ZİNCİRİ İLE BİRBİRİNE BAĞLADIĞI YERLİ/MİLLİ'YE DİJİTAL DÖNÜŞÜM HAREKETİDİR.
               </p>
             </div>  
-          </div>
-        </div>
-      </div>
-      <div className="container-fluid">
-        <div className="row no-gutters">
-          <div className="col-lg-12">
-            <div className="icon-wrapper cati-wrapper" >
-              <div className="container mt-4 mb-5">
-                <div className="row no-gutters">
-                  {
-                    icons.map(i => (
-                      <div className="col-lg-4 col-sm-4" key={i.id}>
-                        <div className="section-item cati">
-                          <img src={i.icon} alt="" className="section-body-icon"/>
-                          <h5 className="icon-title text-dark text-center mt-4">
-                            {i.title}
-                          </h5>
-                        </div>  
-                      </div>
-                    ))
-                  }  
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -103,4 +63,4 @@ const dijitalcati = () => {
   );
 }
 
-export default dijitalcati;
+export default catiSantral;

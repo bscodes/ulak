@@ -17,6 +17,14 @@ import parmakizi from './pages/parmakizi/parmakizi';
 import sahaurun from './pages/sahaurun/sahaurun';
 import eksigorta from './pages/eksigorta/eksigorta';
 
+/* inner pages */
+import catiSantral from './pages/dijitalcati/catiSantral';
+import catiSesTanima from './pages/dijitalcati/catiSesTanima';
+import catiGiys from './pages/dijitalcati/catiGiys';
+import catiGys from './pages/dijitalcati/catiGys';
+import catiIk from './pages/dijitalcati/catiIK';
+import catiDys from './pages/dijitalcati/catiDys';
+
 /* components */
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -35,39 +43,25 @@ function App() {
       
       <Switch>
         <Route exact path="/" component={home}/>
-      </Switch>
-      <Switch>
         <Route exact path="/hakkimizda" component={hakkimizda}/>
-      </Switch>
-      <Switch>
         <Route exact path="/bulutfilo" component={bulutfilo}/>
-      </Switch>
-      <Switch>
         <Route exact path="/cati" component={dijitalcati}/>
-      </Switch>
-      <Switch>
         <Route exact path="/stratejikplan" component={stratejikplan}/>
-      </Switch>
-      <Switch>
         <Route exact path="/drive" component={drive}/>
-      </Switch>
-      <Switch>
         <Route exact path="/scada" component={scada}/>
-      </Switch>
-      <Switch>
         <Route exact path="/iletisim" component={iletisim}/>
-      </Switch>
-      <Switch>
         <Route exact path="/fintech" component={fintech}/>
-      </Switch>
-      <Switch>
         <Route exact path="/parmakizi" component={parmakizi}/>
-      </Switch>
-      <Switch>
         <Route exact path="/noktabakim" component={sahaurun}/>
-      </Switch>
-      <Switch>
         <Route exact path="/eksigorta" component={eksigorta}/>
+        {/* inner routes */}
+        <Route exact path="/cati/santral" component={catiSantral}/>
+        <Route exact path="/cati/sestanima" component={catiSesTanima}/>
+        <Route exact path="/cati/giys" component={catiGiys}/>
+        <Route exact path="/cati/gys" component={catiGys}/>
+        <Route exact path="/cati/ik" component={catiIk}/>
+        <Route exact path="/cati/dys" component={catiDys}/>
+        
       </Switch>
       <Footer/>
       

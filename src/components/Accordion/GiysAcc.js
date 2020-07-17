@@ -12,7 +12,7 @@ const CatiAccordion = () => {
   return (
     <div className="collapse-wrapper">
     <Collapsible
-      open
+      
       className="cati-accordion text-dark text-left"
       openedClassName="cati-accordion opened text-dark text-left" 
       trigger={
@@ -53,6 +53,7 @@ const CatiAccordion = () => {
       </div>
     </Collapsible>
     <Collapsible 
+      
       className="cati-accordion text-dark text-left"
       openedClassName="cati-accordion opened text-dark text-left" 
       trigger={
@@ -88,6 +89,7 @@ const CatiAccordion = () => {
       </div>
     </Collapsible>
     <Collapsible 
+      
       className="cati-accordion text-dark text-left"
       openedClassName="cati-accordion opened text-dark text-left" 
       trigger={
@@ -127,6 +129,7 @@ const CatiAccordion = () => {
       </div>
     </Collapsible>
     <Collapsible 
+      open
       className="cati-accordion text-dark text-left"
       openedClassName="cati-accordion opened text-dark text-left" 
       trigger={
