@@ -26,7 +26,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 function App() {
   return (
     <>
-    <Page loader={"bubble-spin"} color={"#A9A9A9"} size={7} duration={3}>
+    <Page loader={"bubble-spin"} color={"#A9A9A9"} size={7} duration={"8"}>
     <Router>
       
       <ScrollToTop/>
