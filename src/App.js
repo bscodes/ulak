@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Page from 'react-page-loading';
 import './App.scss';
 
 /* pages */
@@ -25,7 +26,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 function App() {
   return (
     <>
+    <Page loader={"bubble-spin"} color={"#A9A9A9"} size={7} duration={3}>
     <Router>
+      
       <ScrollToTop/>
       <Hamburger />
       <Navbar/>
@@ -67,7 +70,9 @@ function App() {
         <Route exact path="/eksigorta" component={eksigorta}/>
       </Switch>
       <Footer/>
+      
     </Router>
+    </Page>
   </>  
   );
 }
