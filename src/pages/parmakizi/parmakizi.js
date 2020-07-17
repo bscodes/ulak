@@ -24,25 +24,25 @@ const parmakizi = () => {
         </div>
         <div className="col-lg-12">
           <div className="section-body drive mt-5 mb-5">
-            <p className="section-body-text text-left mb-5">
+            <p className="section-body-text text-center mb-5">
               PROVİZYON ONAY SÜREÇLERİNİN SAHADA TÜM NOKTALARA KİŞİ DOĞRULAMALI OLARAK YAYGINLAŞTIRILMASI AMAÇLANMAKTADIR
             </p>
             <p className="section-body-text text-center">
               STANDART KART OKUYUCULAR İÇİN KİMLİK DOĞRULAMA VE E-İMZA 
               <p>
-              (Üretici bağımsız çözüm, PINPAD desteği, Android /iOSBTLE desteği)
+              (ÜRETİCİ BAĞIMSIZ ÇÖZÜM, PINPAD DESTEĞİ, ANDROID /IOSBTLE DESTEĞİ)
               </p>
             </p>
             <p className="section-body-text text-center">
               ELEKTRONİK KİMLİK DOĞRULAMA SUNUCULARI
               <p>
-              (Kimlik Doğrulama, Politika ve Rol Sunucuları)
+              (KİMLİK DOĞRULAMA, POLİTİKA VE ROL SUNUCULARI)
               </p>
             </p>
             <p className="section-body-text text-center">
               KART ERİŞİM CİHAZI (KEC) ÇÖZÜMLERİ
               <p>
-              (KEC cihazı, KEC Güncelleme ve Yönetim Sistemi, TCKK API)
+              (KEC CIHAZI, KEC GÜNCELLEME VE YÖNETİM SİSTEMİ, TCKK API)
               </p>
             </p>
           </div>  

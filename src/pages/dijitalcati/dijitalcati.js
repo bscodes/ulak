@@ -44,7 +44,7 @@ const dijitalcati = () => {
           <div className="col-lg-12">
             <div className="section-body mt-5 mb-5">
               <p className="section-body-text text-left ">
-              Dijital tek çatı Kurum ve Kuruluşların sistemlerinin en üst kapmanda vatandaşa yönetiminin olduğu en alt katmanda da tüm system güvenliği ve verisinin Blok zinciri ile birbirine bağladığı Yerli/Milli’ye dijital dönüşüm hareketidir.
+              DIJITAL TEK ÇATI KURUM VE KURULUŞLARIN SİSTEMLERİNİN EN ÜST KAPMANDA VATANDAŞA YÖNETİMİNİN OLDUĞU EN ALT KATMANDA DA TÜM SYSTEM GÜVENLİĞİ VE VERİSİNİN BLOK ZİNCİRİ İLE BİRBİRİNE BAĞLADIĞI YERLİ/MİLLİ'YE DİJİTAL DÖNÜŞÜM HAREKETİDİR.
               </p>
             </div>  
           </div>

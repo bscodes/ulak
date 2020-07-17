@@ -40,11 +40,12 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              VİYS MÜŞTERİ HİZMETLERİ YONETİM PLATFORMLARININ 
+                TÜRKİYE'DEKİ KAYNAKLARLA DÜNYA STANDARDINDA 
+                OLMASINI SAĞLAMAK ÜZERE GELİŞTİRİLEN YAZILIMDIR. 
+                MEVCUTTA BIR KURUM VE KURULUŞ TARAFINDAN DA 
+                KULLANILMAKTADIR.
+
               </p>
             </div>
           </div>
@@ -79,11 +80,7 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              SANTRAL SES VE TELEKOM TEKNOLOJİLERİNİN YÖNETİLDİĞİ ÜRÜN GRUBUDUR. KURUM VE KURULUŞLARIN İHTİYACI OLAN TELEKOMÜNİKASYON YAZILIMLARININ SAĞLANDIĞI ÜRÜNDÜR
               </p>
             </div>
           </div>
@@ -118,11 +115,11 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              VİYS MÜŞTERİ HİZMETLERİ YONETİM PLATFORMLARININ 
+                TÜRKİYE'DEKİ KAYNAKLARLA DÜNYA STANDARDINDA 
+                OLMASINI SAĞLAMAK ÜZERE GELİŞTİRİLEN YAZILIMDIR. 
+                MEVCUTTA BIR KURUM VE KURULUŞ TARAFINDAN DA 
+                KULLANILMAKTADIR.
               </p>
             </div>
           </div>
@@ -157,11 +154,7 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              GİYS KAMERALARIN OLUŞTURDUĞU GÖRÜNTÜLERİN İŞLENDİĞİ VE ANALİZ EDİLDİĞİ YAZILIMDIR.
               </p>
             </div>
           </div>
@@ -196,11 +189,7 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              GYS GAYRİMENKULLERİN DEĞERLENDİRİLMESİ, YÖNETİLMESİNİN GÜNCEL OLARAK TAKİP EDİLMESİNİ SAĞLAYAN YAZILIMDIR.
               </p>
             </div>
           </div>
@@ -235,11 +224,7 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              IK PERSONELLERİN ÖZLÜK VE İŞ HAYATINI DÜZENLEYEN YAZILIMDIR.
               </p>
             </div>
           </div>
@@ -274,11 +259,7 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-                VİYS Müşteri Hizmetleri yönetim platformlarının 
-                Türkiye’deki kaynaklarla dünya standardında 
-                olmasını sağlamak üzere geliştirilen yazılımdır. 
-                Mevcutta bir kurum ve kuruluş tarafından da 
-                kullanılmaktadır.
+              DYS DOKÜMANLARIN DİJİTALLEŞTİRİLMESİ VE DİJİTAL OLUŞMUŞ YA DA ÜRETİLEN DOKÜMANLARIN YÖNETİLMESİ İÇİN GELİŞTİRİLEN YAZILIMDIR
               </p>
             </div>
           </div>

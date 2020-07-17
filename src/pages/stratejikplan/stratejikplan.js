@@ -64,7 +64,7 @@ const stratejikplan = () => {
           <div className="col-lg-12">
             <div className="section-body mt-5 mb-5">
               <p className="section-body-text text-left ">
-              Bu yazılım, 5018 sayılı Kanun ve ilgili mevzuat, İç Kontrol Sistemi ile ilgili düzenlemeler, İdarenin Kamu İç Kontrol Standartlarına Uyum Eylem Planı ile uluslararası standartların (COSO) gereklerini yerine getirecek yapısıyla ilgili tüm faaliyetlerin tek elden standart bir yapıda gerçekleştirilmesi, ortak bir dokümantasyon sağlanması, süreçlerin etkin bir şekilde izlenmesi, yönetilmesi ve raporlanmasını sağlar
+              BU YAZILIM, 5018 SAYILI KANUN VE İLGİLİ MEVZUAT, İÇ KONTROL SISTEMi iLE İLGİLİ DÜZENLEMELER, İDARENİN KAMU İÇ KONTROL STANDARTLARINA UYUM EYLEM PLANI ILE ULUSLARARASI STANDARTLARIN (COSO) GEREKLERİNİ YERİNE GETİRECEK YAPISIYLA İLGİLİ TÜM FAALİYETLERİN TEK ELDEN STANDART BIR YAPIDA GERÇEKLEŞTİRİLMESİ, ORTAK BIR DOKÜMANTASYON SAĞLANMASI, SÜREÇLERİN ETKIN BIR ŞEKİLDE İZLENMESİ, YÖNETİLMESİ VE RAPORLANMASINI SAĞLAR
 
               </p>
             </div>  

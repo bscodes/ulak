@@ -19,19 +19,19 @@ const fintech = () => {
       <div className="col-lg-12">
         <div className="section-body drive text-uppercase mt-5 mb-5">
           <p className="section-body-text text-center">
-            Cep telefonu numarasına para gönderme
+          CEP TELEFONU NUMARASINA PARA GÖNDERME
           </p>
           <p className="section-body-text text-center">
-          Cep telefonuyla para çekme 
+          CEP TELEFONUYLA PARA ÇEKME
           </p>
           <p className="section-body-text text-center">
-          Qr kod ile para çekme
+          QR KOD İLE PARA ÇEKME
           </p>
           <p className="section-body-text text-center">
-          Soft OTP (BDDK yeni çıkacak tebliğe uygun)
+          SOFT OTP (BDDK YENİ ÇIKACAK TEBLİĞE UYGUN)
           </p>
           <p className="section-body-text text-center">
-          Realtime veri analitiği altyapısı 
+          REALTIME VERİ ANALİTİĞİ ALTYAPISI 
           </p>
         </div>  
       </div>
