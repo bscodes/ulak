@@ -52,7 +52,7 @@ const stratejikplan = () => {
           <div className="col-lg-12">
             <div className="section-header">
               <img src={stratejikheader} alt="" className="section-header-image"/>
-                <h1 className="header-title text-light text-center">
+                <h1 className="strateji-title header-title text-light text-center">
                     STRATEJİK PLAN KALİTE VE RİSK YÖNETİM SİSTEMİ 
                 </h1>
             </div>  

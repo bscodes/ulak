@@ -1,4 +1,9 @@
 .parmakizi-wrapper {
+  .section-body-text {
+    @media (min-width: 1281px) {
+      font-size: 1.5rem;
+    }
+  }
   .p-icon-wrapper {
     .p-icon {
       padding-left: 15%;
