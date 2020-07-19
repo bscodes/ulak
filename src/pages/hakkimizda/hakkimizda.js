@@ -18,11 +18,12 @@ const hakkimizda = () => {
         <div className="col-lg-12">
           <div className="section-body mt-5 mb-5">
             <p className="section-body-text text-left ">
-              Hizmet yazılımlarının, Türkiye'de üretilecek şekilde
-              gerekli insan kaynağını, firmaları bulmak
-              ve bu kişi, ekip ve firmaları ortak bir değer oluşturmak.
-              Kurum ve kuruluşlarda yazılımların bu değerlere
-              dönüştürülmesini sağlamak üzere toplanmış bir ekibiz.
+              HİZMET YAZILIMLARININ, TÜRKİYE'DE ÜRETİLECEK ŞEKİLDE
+              GEREKLİ İNSAN KAYNAĞINI,
+              FİRMALARI BULMAK
+              VE BU KİŞİ, EKİP VE FİRMALARI ORTAK BİR DEĞER OLUŞTURMAK. 
+              KURUM VE KURULUŞLARDA YAZILIMLARIN BU DEĞERLERE DÖNÜŞTÜRÜLMESİNİ
+              SAĞLAMAK ÜZERE TOPLANMIŞ BİR EKİBİZ
             </p>
           </div>  
         </div>

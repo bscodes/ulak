@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import logo from '../../image/logo.png';
 import a2 from '../../image/anasayfa_2.jpg';
-import cati from '../../image/cati.jpg';
 import strateji from '../../image/stratejik.jpg'
 import filo from '../../image/anasayfa_buşutfilo.jpg'
 import scada from '../../image/anasayfa_scada.jpg'
@@ -40,14 +39,6 @@ const Home = () => {
               <div className="col-lg-6 col-sm-12">
                 <div className="right-bar">
                   <div className="row no-gutters">
-                    {/* <div className="col-lg-12 col-sm-12">
-                      <div className="one-bar gradient">
-                        <Link to="/cati" className="hero-router">
-                          <img src={cati} alt="" className="hero-image"/>
-                          <h3 className="hero-text">DİJİTAL ÇATI</h3>
-                        </Link>
-                      </div>
-                    </div> */}
                     <div className="col-lg-6 col-sm-6">
                       <div className="four-bar gradient">
                         <Link to="/stratejikplan" className="hero-router">
@@ -94,27 +85,31 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="middle pb-5">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="digital-cati-wrapper gradient mt-5">
-                  <Link to="/cati" className="hero-router"
-                        style={{
-                          "display":"grid",
-                          "color": "white"
-                        }}
-                      >
-                      <div className="cati-image-wrapper">
-                        
-                          <img src={cati} alt="" className="cati-image"/>
-                          <h3 className="cati-banner-text">DİJİTAL ÇATI</h3>
-                      </div>
-                    </Link>
-                  
+        <section className="cati-middle">
+          <div className="cati-middle-bg">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="digital-cati-wrapper">
+                      <Link to="/cati" className="hero-router"
+                            style={{
+                              "display":"grid",
+                              "color": "white"
+                            }}
+                          >
+                          <div className="cati-image-wrapper">
+                              <h3 className="cati-banner-text">DİJİTAL ÇATI</h3>
+                          </div>
+                        </Link>
+                      
+                    </div>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        <section className="middle pb-5">
+          <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <h1 className="middle-title text-center mt-4 mb-4">
