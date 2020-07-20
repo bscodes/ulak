@@ -1,0 +1,16 @@
+.navbar-wrapper {
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  
+    .navbar-dark {
+      background-color: #883334;
+      display: flex;
+      justify-content: center;
+
+      .nav-logo {
+        padding: 10px;
+      }
+    }
+  }
+}

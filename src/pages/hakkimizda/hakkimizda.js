@@ -1,4 +1,5 @@
 import React from 'react';
+import './hakkimizda.scss';
 import logo from '../../image/logo.png';
 import about from '../../image/about.jpg';
 
