@@ -1,9 +1,13 @@
 import React from 'react';
+import YandexMap from '../../components/YMaps/YandexMap';
+import './iletisim.scss';
+
+
 import contactHeader from '../../image/contact-header.png';
 import pin from '../../image/pin.png';
 import mail from '../../image/mail.png';
 import phone from '../../image/phone.png';
-import YandexMap from '../../components/YMaps/YandexMap';
+
 
 
 const iletisim = () => {

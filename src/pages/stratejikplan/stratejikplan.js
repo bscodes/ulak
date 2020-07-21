@@ -1,4 +1,5 @@
 import React from 'react';
+import './strateji.scss';
 
 /* images */
 import rozet1 from '../../image/rozet1.png';
@@ -74,13 +75,13 @@ const stratejikplan = () => {
       <div className="container-fluid">
         <div className="row no-gutters">
           <div className="col-lg-12">
-            <div className="icon-wrapper cati-wrapper stratejik-wrapper" >
+            <div className="icon-wrapper stratejik-wrapper" >
               <div className="container mt-4 mb-5">
                 <div className="row no-gutters">
                   {
                     icons.map(i => (
                       <div className="col-lg-4 col-sm-4" key={i.id}>
-                        <div className="section-item cati stratejik">
+                        <div className="section-item stratejik">
                           <img src={i.icon} alt="" className="section-body-icon"/>
                           <h5 className={"icon-title text-dark text-center mt-4 " + i.titleClass}>
                             {i.title}

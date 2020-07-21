@@ -1,4 +1,5 @@
 import React from 'react';
+import './cati.scss';
 import CatiAccordion from '../../components/Accordion/IkAcc';
 
 /* images */

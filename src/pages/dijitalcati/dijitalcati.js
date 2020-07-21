@@ -1,5 +1,6 @@
 import React from 'react';
-import CatiAccordion from '../../components/Accordion/CatiAccordion'
+import './cati.scss';
+import CatiAccordion from '../../components/Accordion/CatiAccordion';
 
 /* images */
 import donusum from '../../image/donusum.png';

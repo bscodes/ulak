@@ -1,4 +1,5 @@
 import React from 'react';
+import './scada.scss';
 
 /* images */
 import scadaHeader from '../../image/scada-header.png';
@@ -80,9 +81,6 @@ const scada = () => {
                       <div className="col-lg-2 col-sm-4" key={i.id}>
                         <div className={"section-item cati "+ i.class}>
                           <img src={i.icon} alt="" className="section-body-icon"/>
-                          {/* <h5 className="icon-title scada-title text-dark text-left mt-4">
-                            {i.title}
-                          </h5> */}
                         </div>
                         <div className={"title-wrapper " + i.titleClass}>
                           <h5 className="icon-title scada-title text-dark text-left mt-4">

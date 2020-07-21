@@ -1,5 +1,8 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+import './CatiAccordion.scss';
+
+
 import crmIcon from '../../image/crm-icon.png'
 import santralIcon from '../../image/santral-icon.png'
 import sestanima from '../../image/sestanima.png'

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import { slide as Menu } from "react-burger-menu";
+import './Sidebar.scss';
 
 import icon from '../../image/hamburger-icon.png'
 import cross from '../../image/cross.png'
