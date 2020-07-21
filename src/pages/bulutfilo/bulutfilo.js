@@ -1,4 +1,7 @@
 import React from 'react';
+import './bulutfilo.scss'
+
+
 import bulut from '../../image/bulutfilo.jpg';
 import aractakibi from '../../image/aractakibi.png';
 import maliyet from '../../image/maliyet.png';
@@ -71,7 +74,7 @@ const bulutfilo = () => {
             <div className="row no-gutters">
                 {
                   icons.map(i => (
-                    <div className="col-lg-2" key={i.id} >
+                    <div className="col-lg-2 col-md-4 col-sm-4" key={i.id} >
                       <div className="section-item">
                         <img src={i.icon} alt="" className="section-body-icon"/>
                         <h5 className="icon-title text-dark text-center mt-4">

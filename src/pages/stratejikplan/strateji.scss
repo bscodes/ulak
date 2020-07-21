@@ -68,12 +68,7 @@
         }
       }
   
-      @media only screen and (max-width: 812px) and (orientation: landscape) {
-        & {
-          padding-left: 10%;
-          padding-right: 10%;
-        }
-      }
+
 
 
       .stratejik {
@@ -94,6 +89,7 @@
           position: absolute;
           top: 32%;
           left: 50%;
+          font-size: 1rem;
           width: auto;
           transform: translate(-50%, -50%);
   
@@ -115,7 +111,7 @@
   
           @media only screen and (max-width: 812px) and (orientation: landscape) {
             & {
-              top: 55%;
+              top: 31%;
               font-size: .8rem;
             }
           }
@@ -125,19 +121,28 @@
           position: absolute;
           top: 40%;
           left: 50%;
+          text-align: center;
           width: auto;
           transform: translate(-50%, 0%);
   
           @media only screen and (max-width: 768px) {
-            & {
-              top: 40%;
-              width: 80%;
-              transform: translate(-52%, 0%);
-            }
+            top: 45%;
+            line-height: 1rem;
+            width: 80%;
+            transform: translate(-52%, 0%);
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            top: 43%;
           }
   
           .rozet-info {
             font-size: 95%;
+
+            @media only screen and (max-width: 812px) and (orientation: landscape) {
+              margin-bottom: 10px;
+              font-size: 63%;
+            }
           }
         }
   

@@ -75,7 +75,7 @@ const stratejikplan = () => {
       <div className="container-fluid">
         <div className="row no-gutters">
           <div className="col-lg-12">
-            <div className="icon-wrapper stratejik-wrapper" >
+            <div className="stratejik-wrapper" >
               <div className="container mt-4 mb-5">
                 <div className="row no-gutters">
                   {
