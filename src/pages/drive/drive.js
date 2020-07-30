@@ -19,7 +19,7 @@ const drive = () => {
       <div className="container-fluid">
         <div className="row no-gutters">
         <div className="col-lg-12">
-          <div className="section-header mb-4">
+          <div className="section-header">
             <img src={driveHeader} alt="" className="section-header-image"/>
             <h1 className="header-title drive-title text-light text-center">
               DRIVE
@@ -29,7 +29,7 @@ const drive = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row mb-5">
+        <div className="row mb-4">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="drive-item-wrapper">
               <div className="item-image-holder">
