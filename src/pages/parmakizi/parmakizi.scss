@@ -5,16 +5,48 @@
     }
   }
   .p-icon-wrapper {
+
+    .title-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
     .p-icon {
-      padding-left: 15%;
-      padding-right: 15%;
+      padding-left: 10%;
+      padding-right: 10%;
       margin: 4%;
+
+      @media only screen and (max-width: 812px) and (orientation: landscape) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
       .p-icon-text {
       background: linear-gradient(to bottom, rgba(48,200,205,1) 0%, rgba(28,192,192,1) 100%);
+      font-size: 2rem;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 1rem;
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          font-size: 1.5rem;
+        }
 
         .p-icon-icon {
-          width: 40px;
           margin: 15px;
+
+          @media only screen and (max-width: 768px) {
+            width: 40px;
+          }
+
+          @media only screen and (max-width: 812px) and (orientation: landscape) {
+            width: 40px;
+          }
         }
       }
     }

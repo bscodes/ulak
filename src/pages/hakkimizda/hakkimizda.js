@@ -19,12 +19,10 @@ const hakkimizda = () => {
         <div className="col-lg-12">
           <div className="section-body mt-5 mb-5">
             <p className="section-body-text text-left ">
-              HİZMET YAZILIMLARININ, TÜRKİYE'DE ÜRETİLECEK ŞEKİLDE
-              GEREKLİ İNSAN KAYNAĞINI,
-              FİRMALARI BULMAK
-              VE BU KİŞİ, EKİP VE FİRMALARI ORTAK BİR DEĞER OLUŞTURMAK. 
-              KURUM VE KURULUŞLARDA YAZILIMLARIN BU DEĞERLERE DÖNÜŞTÜRÜLMESİNİ
-              SAĞLAMAK ÜZERE TOPLANMIŞ BİR EKİBİZ
+              HİZMET VE SES YAZILIMLARININ TAMAMEN TÜRKİYE'DE 
+              ÜRETİLECEK ŞEKİLDE GEREKLİ İNSAN KAYNAĞINI BULMAK, 
+              AYRICA KURUM VE KURULUŞLARDA YAZILIMLARIN DAHA İLERİ TEKNOLOJİLERE
+              DÖNÜŞTÜRÜLEREK VERİMLİLİĞİ ARTTIRMAK ÜZERE TOPLANMIŞ BİR EKİBİZ.
             </p>
           </div>  
         </div>

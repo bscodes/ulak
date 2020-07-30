@@ -119,11 +119,10 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-              VİYS MÜŞTERİ HİZMETLERİ YONETİM PLATFORMLARININ 
-                TÜRKİYE'DEKİ KAYNAKLARLA DÜNYA STANDARDINDA 
-                OLMASINI SAĞLAMAK ÜZERE GELİŞTİRİLEN YAZILIMDIR. 
-                MEVCUTTA BIR KURUM VE KURULUŞ TARAFINDAN DA 
-                KULLANILMAKTADIR.
+              ULAKSES KONUŞMA ANALİZİ (SPEECH ANALYTICS),
+                MÜŞTERİ GÖRÜŞMELERİNDEN DAHA VERİMLİ BİR ŞEKİLDE 
+                FAYDALANMANIZI SAĞLAR. GÖRÜŞMELERDE SPEECH-TO-TEXT
+                VE EMOTION DETECTION TEKNOLOJİLERİNİ KULLANIR.
               </p>
             </div>
           </div>

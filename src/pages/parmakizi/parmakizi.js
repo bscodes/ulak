@@ -24,7 +24,7 @@ const parmakizi = () => {
         </div>
         <div className="col-lg-12">
           <div className="section-body drive mt-5 mb-5">
-            <p className="section-body-text text-center mb-5">
+            <p className="section-body-text text-center">
               PROVİZYON ONAY SÜREÇLERİNİN SAHADA TÜM NOKTALARA KİŞİ DOĞRULAMALI OLARAK YAYGINLAŞTIRILMASI AMAÇLANMAKTADIR
             </p>
             <p className="section-body-text text-center">
@@ -58,7 +58,12 @@ const parmakizi = () => {
       <div className="p-icon-wrapper text-light mt-5 mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
+              <h5 className="title-title text-center text-dark">
+                PARMAK İZİ ONAYLAMA TEMEL BİLEŞENLERİ
+              </h5>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <div className="p-icon">
                 <h5 className="p-icon-text">
                 <img src={sertifikaIcon} alt="" className="p-icon-icon"/>
@@ -66,7 +71,7 @@ const parmakizi = () => {
                 </h5>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <div className="p-icon">
                 <h5 className="p-icon-text">
                 <img src={fotoIcon} alt="" className="p-icon-icon"/>
@@ -74,7 +79,7 @@ const parmakizi = () => {
                 </h5>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <div className="p-icon">
                 <h5 className="p-icon-text">
                 <img src={bioIcon} alt="" className="p-icon-icon"/>
@@ -82,7 +87,7 @@ const parmakizi = () => {
                 </h5>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <div className="p-icon">
                 <h5 className="p-icon-text">
                 <img src={pinIcon} alt="" className="p-icon-icon"/>

@@ -45,7 +45,7 @@ const dijitalcati = () => {
           <div className="col-lg-12">
             <div className="section-body mt-5 mb-5">
               <p className="section-body-text text-left ">
-              DIJITAL TEK ÇATI KURUM VE KURULUŞLARIN SİSTEMLERİNİN EN ÜST KAPMANDA VATANDAŞA YÖNETİMİNİN OLDUĞU EN ALT KATMANDA DA TÜM SYSTEM GÜVENLİĞİ VE VERİSİNİN BLOK ZİNCİRİ İLE BİRBİRİNE BAĞLADIĞI YERLİ/MİLLİ'YE DİJİTAL DÖNÜŞÜM HAREKETİDİR.
+              DİJİTAL TEK ÇATI KURUM VE KURULUŞLARIN SİSTEMLERİNİN EN ÜST KATMANDA VATANDAŞ YÖNETİMİNİN OLDUĞU, EN ALT KATMANDA DA TÜM SİSTEM GÜVENLİĞİ VE VERİSİNİN BLOK ZİNCİRİ İLE BİRBİRİNE BAĞLANDIĞI YERLİ/MİLLİ'YE DİJİTAL DÖNÜŞÜM HAREKETİDİR.
               </p>
             </div>  
           </div>

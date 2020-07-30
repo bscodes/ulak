@@ -16,7 +16,7 @@ export const icons = [
     "info": {
         "1": "COSO (İç Kontrol), EFQM",
         "2": "ISO 9001:2015, ISO 27001:2013, ISO 31000:2018, Vb.",
-        "3": "SKS, HASTANE VERİMLİLİK KRİTERLERİ, JCI, HIMMS",
+        "3": "SKS, Hastane Verimlilik Kriterleri, JCI, HIMMS",
         "4": "KVKK",
         "5": "YÖK KİDR,YÖKAK"
     }
@@ -65,7 +65,12 @@ const stratejikplan = () => {
           <div className="col-lg-12">
             <div className="section-body mt-5 mb-5">
               <p className="section-body-text text-left ">
-              BU YAZILIM, 5018 SAYILI KANUN VE İLGİLİ MEVZUAT, İÇ KONTROL SISTEMi iLE İLGİLİ DÜZENLEMELER, İDARENİN KAMU İÇ KONTROL STANDARTLARINA UYUM EYLEM PLANI ILE ULUSLARARASI STANDARTLARIN (COSO) GEREKLERİNİ YERİNE GETİRECEK YAPISIYLA İLGİLİ TÜM FAALİYETLERİN TEK ELDEN STANDART BIR YAPIDA GERÇEKLEŞTİRİLMESİ, ORTAK BIR DOKÜMANTASYON SAĞLANMASI, SÜREÇLERİN ETKIN BIR ŞEKİLDE İZLENMESİ, YÖNETİLMESİ VE RAPORLANMASINI SAĞLAR
+              BU YAZILIM, 5018 SAYILI KANUN VE İLGİLİ MEVZUAT, İÇ KONTROL SISTEMİ İLE 
+              İLGİLİ DÜZENLEMELER, İDARENİN KAMU İÇ KONTROL STANDARTLARINA UYUM EYLEM PLANI 
+              İLE ULUSLARARASI STANDARTLARIN (COSO) GEREKLERİNİ YERİNE GETİRECEK YAPISIYLA 
+              İLGİLİ TÜM FAALİYETLERİN TEK ELDEN STANDART BİR YAPIDA GERÇEKLEŞTİRİLMESİ, 
+              ORTAK BİR DOKÜMANTASYON SAĞLANMASI, SÜREÇLERİN ETKİN BİR ŞEKİLDE İZLENMESİ, 
+              YÖNETİLMESİ VE RAPORLANMASINI SAĞLAR
 
               </p>
             </div>  
