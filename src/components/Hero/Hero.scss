@@ -7,6 +7,15 @@
     padding-left: 0px;
   }
 
+  .hero-image {
+    width: 100%;
+    opacity: 0.7;
+
+    @media only screen and (max-width: 768px) {
+      opacity: 0.9;
+    }
+  }
+
   .top-hero {
     .hero-text {
       position: absolute;
@@ -20,48 +29,29 @@
   .left-bar {
     .hero-text {
       position: absolute;
-      top: 39%;
-      left: 44%;
-      transform: translate(-50%, -50%);
-      font-size: 1.3rem;
-
-      @media only screen and (max-width: 768px) {
-        & {
-          left: 40%;
-          top: 56%;
-          font-size: 1rem;
-        }
-      }
-
-      @media only screen and (max-width: 812px) and (orientation: landscape) {
-        & {
-          top: 74%;
-          left: 45% !important;
-        }
-      }
-
-    }
-
-    .hero-logo {
-      position: absolute;
       top: 23%;
-      left: 34%;
-      width: 50%;
+      left: 38%;
       transform: translate(-50%, -50%);
+      font-size: 4rem;
+      font-weight: 800;
 
       @media only screen and (max-width: 768px) {
         & {
-          top: 23%;
-          left: 40%;
+          top: 50%;
+          left: 50%;
           width: 60%;
+          font-size: 2rem;
         }
       }
 
       @media only screen and (max-width: 812px) and (orientation: landscape) {
         & {
-          top: 40%;
+          top: 50%;
+          left: 58%;
+          width: 100%;
         }
       }
+
     }
   }
 

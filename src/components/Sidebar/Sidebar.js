@@ -24,6 +24,7 @@ export default props => {
       <Link className="menu-item" to="/iletisim">
         İLETİŞİM
       </Link>
+      <hr className="line "/>
     </Menu>
   );
 };

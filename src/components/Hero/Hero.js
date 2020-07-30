@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Hero.scss'
 
-import logo from '../../image/logo.png';
 import a2 from '../../image/anasayfa_2.jpg';
 import strateji from '../../image/stratejik.jpg'
 import filo from '../../image/anasayfa_buşutfilo.jpg'
@@ -18,13 +17,10 @@ const Hero = () => {
             <div className="row no-gutters">
               <div className="col-lg-6 col-sm-12">
                 <div className="left-bar gradient">
-                  <Link to="/hakkimizda" className="hero-router">
+                  <Link to="/cati" className="hero-router">
                     <img src={a2} alt="" className="hero-image"/>
-                    <img src={logo} alt="" className="hero-logo"/>
                     <h3 className="hero-text text-left">
-                      Yenilikçi çözümlerimiz ile verimlilik,
-                      kalite ve rekabet avantajı sağlayan
-                      teknoloji çözümleri üretiyoruz
+                      DİJİTAL ÇATI
                     </h3>
                   
                   </Link>

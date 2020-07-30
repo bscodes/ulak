@@ -78,4 +78,31 @@
       margin-bottom: 10px;
     }
   }
+
+  .drive-item-wrapper {
+    display: flex;
+    border: 3px solid black;
+    padding: 25px;
+    margin-top: 30px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 20px;
+    }
+
+    .item-image-holder {
+      .drive-image {
+        width: 150px;
+      }
+    }
+
+    .item-title-holder {
+      display: grid;
+      place-content: center;
+      margin-left: 15px;
+
+      .item-title {
+        font-size: 13px;
+      }
+    }
+  }
 }

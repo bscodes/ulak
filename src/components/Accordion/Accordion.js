@@ -43,9 +43,7 @@ const AccordionMenu = () => {
       </div>
     </Collapsible>
 
-    <hr className="line"/>
-
-    <Collapsible trigger="PROJE YETKİNLİKLERİMİZ">
+{/*     <Collapsible trigger="PROJE YETKİNLİKLERİMİZ">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 mt-2">
@@ -74,7 +72,7 @@ const AccordionMenu = () => {
           </div>
         </div>
       </div>
-    </Collapsible>
+    </Collapsible> */}
     
     </>
   );
