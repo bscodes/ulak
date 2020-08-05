@@ -1,6 +1,10 @@
 .section-wrapper.saha-wrapper {
   .header-title {
     width: 60%;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 1.5rem !important;
+    }
   }
 
   .section-body-wrapper {

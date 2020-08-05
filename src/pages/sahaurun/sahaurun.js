@@ -13,7 +13,7 @@ const sahaurun = () => {
         <div className="col-lg-12">
           <div className="section-header">
             <img src={sahaHeader} alt="" className="section-header-image"/>
-            <h1 className="header-title drive-title text-light text-center">
+            <h1 className="header-title saha title drive-title text-light text-center">
               SAHA ÜRÜN VEYA NOKTA BAKIM ÇÖZÜM YÖNETİMİ
             </h1>
           </div>  

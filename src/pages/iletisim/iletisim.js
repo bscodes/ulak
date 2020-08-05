@@ -58,7 +58,7 @@ const iletisim = () => {
                       </div>
                       <div className="contact-contact">
                         <p className="contact-text">
-                          info@digiseat.com.tr
+                          bilgi@ulakteknoloji.com.tr
                         </p>
                       </div>
                     </div>

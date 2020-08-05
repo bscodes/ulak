@@ -12,31 +12,31 @@ const AccordionMenu = () => {
           <div className="col-lg-12">
             <hr className="line"/>
             <Link to="/cati" className="acc-link">
-            Dijital Çatı
+            DİJİTAL ÇATI
             </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12">
             <Link to="/stratejikplan" className="acc-link">
-            Stratejik Plan
+            STRATEJİK PLAN
             </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12">
             <Link to="/bulutfilo" className="acc-link">
-              Bulut Filo
+              BULUT FİLO
             </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12">
             <Link to="/drive" className="acc-link">
-            Drive
+             DRIVE
             </Link>
             <hr className="line"/>
           </div>
           <div className="col-lg-12">
             <Link to="/scada" className="acc-link">
-            Scada
+              SCADA
             </Link>
           </div>
         </div>

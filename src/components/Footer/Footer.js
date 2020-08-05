@@ -37,7 +37,7 @@ const Footer = () => {
                     Telefon: +90 212 403 1534
                 </p>
                 <p className="email">
-                    E-maIl: info@digiseat.com.tr
+                    E-maIl: bilgi@ulakteknoloji.com.tr
                 </p>
             </div>
         </div>
