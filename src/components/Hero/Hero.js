@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="jumbotron jumbotron-fluid text-left" style={{height: `${size.height - 200}px`}}>
             <div className="container">
               <div className="col-lg-6 float-right">
-                <div className="hero-info" style={{height: `${size.height - 200}px`}}>
+                <div className="hero-info" style={{height: `${size.height - 120}px`}}>
                   <h2 className="hero-text">
                     Çağrı merkezinizde;
                     Müşterilerinizin sorunlarını hemen çözmek ister misiniz?
