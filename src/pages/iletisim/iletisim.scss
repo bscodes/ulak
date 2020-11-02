@@ -1,0 +1,137 @@
+.section-wrapper {
+    &.iletisim-wrapper {
+      background: #333333;
+
+      @media only screen and (max-width: 812px) and (orientation: landscape) {
+        .section-header {
+          .header-title {
+            padding-top: 16%;
+          }
+        }
+      }
+
+
+      .contact-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+
+        .contact-thumb {
+          width: 25px;
+          margin-bottom: 3%;
+
+          .contact-icon {
+          max-width: 100%;
+
+          &.pin {
+            margin-top: 5px;
+          }
+          }
+        }
+
+        .contact-contact {
+          width: calc(100% - 78px);
+          padding-left: 20px;
+        }
+
+        
+      }
+
+      .contact-form {
+
+        .form-control {
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid white;
+          border-radius: 0;
+          padding-bottom: 0;
+          color: white;
+        }
+        @media (min-width: 1281px) {
+          textarea.form-control {
+            height: 124px;
+          }
+        }
+        
+        .submit-button {
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+
+      .ymaps-wrapper {
+        @media only screen and (max-width: 768px) {
+          & {
+            margin-top: 2rem;
+          }
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          & {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  .container-fluid {
+    padding: 0;
+  }
+  /* --------------------------------- 
+     ----------header start ----------
+     --------------------------------- */
+
+  .section-header {
+    .section-header-image {
+      width: 100%;
+    }
+
+    .header-logo, .header-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 30%;
+      transform: translate(-50%, -50%);
+
+      &.iletisim-title {
+        
+        @media (min-width: 1281px) {
+          top: 75%;
+        }
+        
+        @media only screen and (max-width: 768px) {
+          top: 79%;
+        }
+      }
+      
+      
+      
+    }
+
+    .header-title {
+      width: 100%;
+      font-size: 3rem;
+      font-weight: 900;
+
+      @media (min-width: 1281px) {
+        font-size: 5rem;
+      }
+      
+      @media only screen and (max-width: 768px) {
+        & {
+            padding-top: 0;
+            font-size: 1.5rem;
+        }
+      }
+
+      @media only screen and (max-width: 812px) and (orientation: landscape) {
+        & {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+
+  /* --------------------------------- 
+     ----------header end ------------
+     --------------------------------- */
+}

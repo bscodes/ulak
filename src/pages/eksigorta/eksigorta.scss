@@ -1,0 +1,77 @@
+.section-wrapper.eksigorta-wrapper {
+  .container-fluid{
+    padding: 0 !important;
+  }
+
+  .no-gutters-mobile{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .section-header {
+    margin-bottom: 3rem;
+
+    .header-title {
+      @media (min-width: 1281px) {
+        width: 48%;
+      }
+    }
+  }
+
+  .sigorta-icons {
+    @media (min-width: 1281px) {
+      margin-bottom: 4rem;
+      margin-top: 4rem;
+    }
+    
+
+    .thumb-wrapper {
+      @media only screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        }
+      .icon-thumb {
+        width: 100%;
+        @media only screen and (max-width: 768px){
+          width: 200px;
+        }
+      }
+    }
+
+    .inner-title-wrapper {
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      width: 75%;
+      transform: translate(-50%, -50%);
+
+      @media only screen and (max-width: 768px){
+        width: auto;
+        top: 14%;
+      }
+
+      .inner-title {
+        font-size: 1.2rem;
+
+        @media only screen and (max-width: 768px){
+          font-size: .9rem;
+          padding: 15%;
+        }
+      }
+    }
+
+    .icon-info-wrapper {
+      text-align: center;
+      margin-top: 1rem;
+      padding-left: 5%;
+      padding-right: 5%;
+
+      @media only screen and (max-width: 768px){
+        margin-bottom: 3rem;
+      }
+
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
+}

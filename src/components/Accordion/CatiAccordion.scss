@@ -1,0 +1,73 @@
+.cati-accordion {
+  border: 1px solid #a91b1b;
+  
+  .acc-header {
+    .acc-image-holder {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      @media (min-width: 1281px) {
+        & {
+          margin-left: 140px;
+        }
+      }
+      
+
+      @media only screen and (max-width: 768px) {
+        & {
+          margin-left: 5px;
+        }
+      }
+
+      .acc-image {
+        @media only screen and (max-width: 768px) {
+          & {
+            width: 50px;
+          }
+        }
+      }
+
+      .acc-title-holder {
+        @media (min-width: 1281px) {
+          .acc-title {
+            width: 500px;
+            font-size: 1.3rem;
+          }
+        }
+
+        @media only screen and (max-width: 768px) {
+          .acc-title {
+            font-size: .8rem;
+            width: 100%;
+          }
+        }
+
+        @media only screen and (max-width: 812px) and (orientation: landscape) {
+          .acc-title {
+            font-size: 1rem;
+            width: 350px;
+          }
+        }
+        
+      }
+    }
+  }
+
+  .acc-text-holder {
+    @media (min-width: 1281px) {
+      & {
+        margin-left: 250px;
+      }
+    }
+
+    .accordion-text {
+      @media only screen and (max-width: 768px) {
+        & {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+
+}
