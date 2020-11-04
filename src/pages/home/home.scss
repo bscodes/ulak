@@ -19,6 +19,24 @@
       }
     }
 
+    .service-card {
+      border: 1px solid #ffffff;
+      padding: 40px;
+      margin-bottom: 10px;
+      background: linear-gradient(to bottom, #cdeb8e 0%,#a5c956 100%);
+      color: black;
+      -webkit-transition: background 1s ease ease-in-out; 
+      transition: background 1s ease ease-in-out; 
+
+      &:hover {
+        background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%);
+      }
+
+      h4 {
+        font-weight: 600;
+      }
+    }
+
     .col-lg-3 {
       @media only screen and (max-width: 768px) {
         & {

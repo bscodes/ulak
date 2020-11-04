@@ -27,8 +27,63 @@ const Home = () => {
                 </h1>
               </div>
             </div>
-            <div className="row mb-5">
-              hizmetlerimiz buraya
+            <div className="row mb-5 text-center">
+              
+              <div className="col-lg-6">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                    OUTBOUND
+                  </h4>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                  INBOUND
+                  </h4>
+
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                  TEKNOLOJİK ALTYAPI 
+                  </h4>
+
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                  DANIŞMANLIK 
+                  </h4>
+
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                  OTOMASYON
+                  </h4>
+
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                  İLETİŞİM MERKEZİ
+                  </h4>
+
+                </div>
+              </div>
+              <div className="col-lg-6 mx-auto">
+                <div className="service-card">
+                  <h4 className="service-card-title">
+                  SOSYAL MEDYA
+                  </h4>
+
+                </div>
+              </div>
             </div>
             <div className="row">
               <div className="col-lg-12">
