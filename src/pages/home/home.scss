@@ -20,20 +20,26 @@
     }
 
     .service-card {
-      border: 1px solid #ffffff;
-      padding: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
       margin-bottom: 10px;
-      background: linear-gradient(to bottom, #cdeb8e 0%,#a5c956 100%);
-      color: black;
-      -webkit-transition: background 1s ease ease-in-out; 
-      transition: background 1s ease ease-in-out; 
+      background-size: cover;
+      transition: all 1s ease-in-out;
+      background-blend-mode: normal;
+       
 
       &:hover {
-        background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%);
+        background-size: 800px;
+        background-position: center;
+        background-blend-mode: overlay;
       }
-
+      
       h4 {
         font-weight: 600;
+        font-size: 1.8rem;
+        margin: 0;
       }
     }
 
@@ -118,6 +124,63 @@
       .item-title {
         font-size: 1.2rem;
         font-weight: 900;
+      }
+    }
+  }
+
+  .section-footer {
+    background-image: url(../../image/sectionFooter.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: static;
+    width: 100%;
+    z-index: 0;
+
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
+
+    .footer-inner {
+      padding-top: 64px;
+      position: relative;
+      width: 100%;
+      height: 400px;
+      z-index: 10;
+
+      &::before {
+        background: -webkit-linear-gradient(top,#000,rgba(0,0,0,.3));
+        background: linear-gradient(to bottom,#000,rgba(0,0,0,.3));
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+      }
+    }
+  }
+
+  .references-section {
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    .reference-wrapper {
+      width: 200px;
+      margin: 10px;
+
+      .reference {
+        width: 100%;
       }
     }
   }

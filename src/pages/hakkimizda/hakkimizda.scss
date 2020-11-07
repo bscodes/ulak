@@ -8,6 +8,17 @@
      --------------------------------- */
 
   .section-header {
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background:linear-gradient(180.49deg,#000 0,rgba(0,0,0,.49) 35.01%,rgba(255,255,255,.2) 80%)!important;
+      
+    }
+    
     .section-header-image {
       width: 100%;
     }

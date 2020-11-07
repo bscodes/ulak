@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 import { slide as Menu } from "react-burger-menu";
 import './Sidebar.scss';
 
-import icon from '../../image/hamburger-icon.png'
+import { AiOutlineMenu } from 'react-icons/ai';
 import cross from '../../image/cross.png'
-import Accordion from '../../components/Accordion/Accordion'
+
 
 export default props => {
   return (
     <Menu 
       burgerButtonClassName={ "my-class" } 
-      customBurgerIcon={ <img src={icon} alt="" /> } 
+      customBurgerIcon={ <AiOutlineMenu /> } 
       customCrossIcon={ <img src={cross} alt="" /> } 
       right>
       <hr className="line "/>
@@ -19,7 +19,9 @@ export default props => {
         HAKKIMIZDA
       </Link>
       <hr className="line "/>
-      <Accordion/>
+      <Link className="menu-item" to="/hizmetlerimiz">
+        HİZMETLERİMİZ
+      </Link>
       <hr className="line "/>
       <Link className="menu-item" to="/iletisim">
         İLETİŞİM

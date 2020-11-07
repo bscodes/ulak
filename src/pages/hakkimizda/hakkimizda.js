@@ -1,10 +1,15 @@
 import React from 'react';
+import { useWindowSize } from '../../helpers/windowSize'
 import './hakkimizda.scss';
-import logo from '../../image/logo.png';
+
+import logo from '../../image/1ulak_1.png';
 import about from '../../image/about.jpg';
 
 
-const hakkimizda = () => {
+const Hakkimizda = () => {
+  
+  const size = useWindowSize();
+
   return(
   <>
     <div className="section-wrapper">
@@ -17,12 +22,11 @@ const hakkimizda = () => {
           </div>  
         </div>
         <div className="col-lg-12">
-          <div className="section-body mt-5 mb-5">
-            <p className="section-body-text text-left ">
-              HİZMET VE SES YAZILIMLARININ TAMAMEN TÜRKİYE'DE 
-              ÜRETİLECEK ŞEKİLDE GEREKLİ İNSAN KAYNAĞINI BULMAK, 
-              AYRICA KURUM VE KURULUŞLARDA YAZILIMLARIN DAHA İLERİ TEKNOLOJİLERE
-              DÖNÜŞTÜRÜLEREK VERİMLİLİĞİ ARTTIRMAK ÜZERE TOPLANMIŞ BİR EKİBİZ.
+          <div className="section-body mt-5 mb-5" style={{height: `${size.height - 200}px`}}>
+            <p className="section-body-text text-left">
+            KAMU KURUM VE KURULUŞLARININ ÇAĞRI MERKEZİ VE HİZMET TEKNOLOJİLERİNDEKİ
+            OPTIMIZASYONUNU SAĞLAMAK VE SEKTÖRDEKİ YABANCILAŞMA KARŞISINDA YERLİ BİR
+            SERMAYE OLMAK ÜZERE KURULMUŞTUR.
             </p>
           </div>  
         </div>
@@ -33,4 +37,4 @@ const hakkimizda = () => {
   );
 }
 
-export default hakkimizda;
+export default Hakkimizda;

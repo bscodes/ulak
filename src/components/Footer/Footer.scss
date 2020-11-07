@@ -3,17 +3,16 @@
 
   .footer-bg {
     position: relative;
-    min-height: calc(50vh - 80px);
     background-image: url('../../image/anasayfa_footer.jpg');
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
     @media only screen and (max-width: 768px) {
       background-image: none;
       background-color: #000000;
-      
+      border-top: 1px solid;
     }
     @media only screen and (max-width: 850px) and (orientation: landscape) {
       & {
