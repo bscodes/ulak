@@ -81,6 +81,25 @@
      --------------------------------- */
 
   .section-header {
+    &.iletisim-header {
+      background: url(../../image/contact-header.jpg) no-repeat;
+      height: 500px;
+      background-size: contain;
+      top: 0;
+      left: 0;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      backface-visibility: hidden;
+      z-index: 0;
+
+      @media only screen and (max-width: 768px) {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: inherit;
+      }
+    }
     .section-header-image {
       width: 100%;
     }

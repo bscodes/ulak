@@ -2,8 +2,6 @@ import React from 'react';
 import YandexMap from '../../components/YMaps/YandexMap';
 import './iletisim.scss';
 
-
-import contactHeader from '../../image/contact-header.png';
 import pin from '../../image/pin.png';
 import mail from '../../image/mail.png';
 import phone from '../../image/phone.png';
@@ -17,8 +15,8 @@ const iletisim = () => {
         <div className="container-fluid">
           <div className="row no-gutters">
             <div className="col-lg-12">
-              <div className="section-header">
-                <img src={contactHeader} alt="" className="section-header-image"/>
+              <div className="section-header iletisim-header">
+                {/* <img src={contactHeader} alt="" className="section-header-image"/> */}
                 <h1 className="header-title iletisim-title text-light text-center">
                   İLETİŞİM 
                 </h1>

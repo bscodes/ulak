@@ -170,7 +170,7 @@ const Home = () => {
             
             <div className="row">
               <div className="col-lg-3 col-md-6 col-sm-6">
-                <Link to="/parmakizi" className="proje-link">
+                <Link to="/destek-kadro" className="proje-link">
                 <div className="middle-item">
                   <img src={om} alt="" className="item-image"/>
                 </div>
@@ -184,7 +184,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="col-lg-3 col-sm-6">
-                <Link to="/eksigorta" className="proje-link">
+                <Link to="/proje-yonetimi" className="proje-link">
                 <div className="middle-item">
                   <img src={pm} alt="" className="item-image"/>
                 </div>
@@ -196,7 +196,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="col-lg-3 col-sm-6">
-                <Link to="/noktabakim" className="proje-link">
+                <Link to="/teknoloji-yonetimi" className="proje-link">
                 <div className="middle-item">
                   <img src={tm} alt="" className="item-image"/>
                 </div>
@@ -209,7 +209,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="col-lg-3 col-sm-6">
-                <Link to="/fintech" className="proje-link">
+                <Link to="/vatandas-deneyimi-yonetimi" className="proje-link">
                 <div className="middle-item">
                   <img src={dm} alt="" className="item-image"/>
                 </div>

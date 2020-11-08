@@ -10,7 +10,15 @@ import stratejikplan from './pages/stratejikplan/stratejikplan';
 import drive from './pages/drive/drive';
 import scada from './pages/scada/scada';
 import iletisim from './pages/iletisim/iletisim';
-import fintech from './pages/fintech/fintech';
+
+import Dijitalcati from './pages/dijitalcati/dijitalcati';
+
+import DestekKadro from './pages/cozumlerimiz/DestekKadro';
+import ProjeYonetimi from './pages/cozumlerimiz/ProjeYonetimi';
+import TeknolojiYonetimi from './pages/cozumlerimiz/TeknolojiYonetimi';
+import VatandasDeneyimi from './pages/cozumlerimiz/VatandasDeneyimi';
+
+
 import parmakizi from './pages/parmakizi/parmakizi';
 import sahaurun from './pages/sahaurun/sahaurun';
 import eksigorta from './pages/eksigorta/eksigorta';
@@ -47,7 +55,15 @@ function App() {
         <Route exact path="/drive" component={drive}/>
         <Route exact path="/scada" component={scada}/>
         <Route exact path="/iletisim" component={iletisim}/>
-        <Route exact path="/fintech" component={fintech}/>
+
+        <Route exact path="/cati" component={Dijitalcati}/>
+        
+
+        <Route exact path="/destek-kadro" component={DestekKadro}/>
+        <Route exact path="/proje-yonetimi" component={ProjeYonetimi}/>
+        <Route exact path="/teknoloji-yonetimi" component={TeknolojiYonetimi}/>
+        <Route exact path="/vatandas-deneyimi-yonetimi" component={VatandasDeneyimi}/>
+
         <Route exact path="/parmakizi" component={parmakizi}/>
         <Route exact path="/noktabakim" component={sahaurun}/>
         <Route exact path="/eksigorta" component={eksigorta}/>

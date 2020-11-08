@@ -5,7 +5,7 @@ import CatiAccordion from '../../components/Accordion/CatiAccordion';
 /* images */
 import donusum from '../../image/donusum.png';
 import catiheader from '../../image/catiheader.png';
-import blogzinciri from '../../image/blogzinciri.png';
+import blogzinciri from '../../image/blokzinciri.png';
 import uygulamalar from '../../image/uygulamalar.png';
 
 export const icons = [
@@ -23,7 +23,7 @@ export const icons = [
     "title": "UYGULAMALAR VE DÖNÜŞÜMÜN YAPILMASI VE YÖNETİLMESİ"
   }
 ]
-const dijitalcati = () => {
+const Dijitalcati = () => {
 
   return(
   <>
@@ -104,4 +104,4 @@ const dijitalcati = () => {
   );
 }
 
-export default dijitalcati;
+export default Dijitalcati;

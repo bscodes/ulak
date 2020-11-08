@@ -19,27 +19,38 @@ const ProductAccordion = () => {
     <div className="acc-wrapper">
       <div class="__container">
         <div class="card">
+          <a href="https://www.ulakteknoloji.com.tr/cati" target="_blank" rel="noopener noreferrer">
           <img src={dokumanLogo} alt="product" className="acc-logo" />
+          </a>
           <img src={dokuman} alt="product" className="acc-bg"/>
-          
+         
         </div>
         <div class="card">
+          <a href="https://www.ulakteknoloji.com.tr/cati" target="_blank" rel="noopener noreferrer">
           <img src={sesLogo} alt="product" className="acc-logo" />
+          </a>
+
           <img src={sestanima} alt="product"  className="acc-bg"/>
   
         </div>
         <div class="card" >
+          <a href="https://www.ulakteknoloji.com.tr/cati" target="_blank" rel="noopener noreferrer">
           <img src={blokzinciriLogo} alt="product" className="acc-logo" />
+          </a>
           <img src={blokzinciri} alt="product"  className="acc-bg"/>
         
         </div>
         <div class="card">
+          <a href="https://www.ulakteknoloji.com.tr/cati" target="_blank" rel="noopener noreferrer">
           <img src={santralIcon} alt="product" className="acc-logo" />
+          </a>
           <img src={santral} alt="product" className="acc-bg"/>
         
         </div>
         <div class="card">
+          <a href="https://www.ulakteknoloji.com.tr/cati" target="_blank" rel="noopener noreferrer">
           <img src={viysLogo} alt="product" className="acc-logo" />
+          </a>
           <img src={viys} alt="product" className="acc-bg"/>
          
         </div>
