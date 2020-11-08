@@ -27,7 +27,7 @@ const iletisim = () => {
           </div>
         </div>
 
-        <div className="iletisim-body text-light mt-5">
+        <div className="iletisim-body  mt-5">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">

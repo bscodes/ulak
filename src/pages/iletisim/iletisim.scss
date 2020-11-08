@@ -1,6 +1,6 @@
 .section-wrapper {
     &.iletisim-wrapper {
-      background: #333333;
+      
 
       @media only screen and (max-width: 812px) and (orientation: landscape) {
         .section-header {
@@ -40,12 +40,12 @@
       .contact-form {
 
         .form-control {
-          background: transparent;
+          background: #f4f4f4;
           border: none;
-          border-bottom: 1px solid white;
+          border-bottom: 1px solid #000000;
           border-radius: 0;
           padding-bottom: 0;
-          color: white;
+          color: #000000;
         }
         @media (min-width: 1281px) {
           textarea.form-control {
@@ -134,4 +134,12 @@
   /* --------------------------------- 
      ----------header end ------------
      --------------------------------- */
+
+  .iletisim-body {
+    @media (min-width: 1281px) {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    
+  }
 }
