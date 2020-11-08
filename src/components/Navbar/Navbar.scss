@@ -44,3 +44,19 @@
     }
   }
 }
+
+.navbar {
+  background: #000000;
+
+  &.fixed-top {
+    z-index: 2;
+  }
+
+  .nav-logo {
+    width: 60px;
+
+    /* @media only screen and (max-width: 768px) {
+      width: 60px;
+    } */
+  }
+}

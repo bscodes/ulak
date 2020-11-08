@@ -27,7 +27,7 @@ const Navbar = () => {
   
   return(
   <>
-    <div className="navbar-wrapper">
+    {/* <div className="navbar-wrapper">
       <div className="container-fluid">
         <div className="row no-gutters">
         <div className="col-lg-12">
@@ -39,7 +39,12 @@ const Navbar = () => {
         </div>
         </div>
       </div>
-    </div>
+    </div> */}
+    <nav class="navbar navbar-expand-lg text-light fixed-top">
+      <Link to="/" class="navbar-brand mx-auto">
+        <img src={logo} alt="" className="nav-logo"/>
+      </Link>
+    </nav>
   </>
   );
 }
