@@ -62,28 +62,73 @@
       }
     }
   }
+  .hizmetlerimiz-header {
+    height: 500px;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: hidden;
+    z-index: 0;
 
-  .second-section-wrapper {
-    background-color: #e7e7e7;
-    padding: 5%;
-
-    @media (min-width: 1281px) {
-      & {
-        padding-left: 21%;
-        padding-right: 21%;
-      }
+    @media only screen and (max-width: 768px) {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
     }
+
+    .header-title {
+        top: 75% !important;
+    }
+  }
+  .second-section-wrapper {
+    padding: 5%;
 
     .second-section-title-wrapper {
       text-align: center;
-
-      .section-title {
-        @media only screen and (max-width: 768px) {
-          & {
-            font-size: 1.5rem;
-          }
-        }
-      }
     }
   }
+
+
+  .rwt__tablist[aria-orientation="vertical"] {
+
+    font-size: 22px;
+    border-right: none;
+    @media only screen and (max-width: 768px) {
+      width: 120px;
+      font-size: 12px;
+    }
+
+    .rwt__tab {
+      border: 1px solid #000000;
+      font-weight: 600;
+
+      &[aria-selected="true"] {
+        border-right: none;
+        background-color: rgba(0,0,0,0.05);
+      }
+
+      @media only screen and (max-width: 768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+
+    .rwt__tab + .rwt__tab {
+      border-top: none;
+    }
+  }
+
+  .rwt__tabpanel {
+    @media only screen and (max-width: 768px) {
+      
+      font-size: 15px;
+    }
+
+
+  }
+  
 }

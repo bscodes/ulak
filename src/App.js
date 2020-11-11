@@ -11,7 +11,7 @@ import drive from './pages/drive/drive';
 import scada from './pages/scada/scada';
 import iletisim from './pages/iletisim/iletisim';
 
-import Dijitalcati from './pages/dijitalcati/dijitalcati';
+import Hizmetlerimiz from './pages/hizmetlerimiz/hizmetlerimiz';
 
 import DestekKadro from './pages/cozumlerimiz/DestekKadro';
 import ProjeYonetimi from './pages/cozumlerimiz/ProjeYonetimi';
@@ -56,7 +56,7 @@ function App() {
         <Route exact path="/scada" component={scada}/>
         <Route exact path="/iletisim" component={iletisim}/>
 
-        <Route exact path="/cati" component={Dijitalcati}/>
+        <Route  path="/hizmetlerimiz" component={Hizmetlerimiz}/>
         
 
         <Route exact path="/destek-kadro" component={DestekKadro}/>

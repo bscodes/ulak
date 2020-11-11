@@ -47,6 +47,7 @@ const Home = () => {
             <div className="row mb-5 text-center">
               
               <div className="col-lg-6">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/1">
                 <div className="service-card" 
                 style={{
                   backgroundImage: `linear-gradient(
@@ -61,8 +62,10 @@ const Home = () => {
                   </div>  
 
                 </div>
+                </Link>
               </div>
               <div className="col-lg-6">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/2">
                 <div className="service-card" 
                 style={{
                   backgroundImage: `linear-gradient(
@@ -74,8 +77,10 @@ const Home = () => {
                   </h4>
 
                 </div>
+                </Link>
               </div>
               <div className="col-lg-6">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/3">
                 <div className="service-card"
                 style={{
                   backgroundImage: `linear-gradient(
@@ -87,8 +92,10 @@ const Home = () => {
                   </h4>
 
                 </div>
+                </Link>
               </div>
               <div className="col-lg-6">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/4">
                 <div className="service-card"
                 style={{
                   backgroundImage: `linear-gradient(
@@ -100,8 +107,10 @@ const Home = () => {
                   </h4>
 
                 </div>
+                </Link>
               </div>
               <div className="col-lg-6">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/5">
                 <div className="service-card"
                 style={{
                   backgroundImage: `linear-gradient(
@@ -113,8 +122,10 @@ const Home = () => {
                   </h4>
 
                 </div>
+                </Link>
               </div>
               <div className="col-lg-6">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/6">
                 <div className="service-card"
                 style={{
                   backgroundImage: `linear-gradient(
@@ -126,8 +137,10 @@ const Home = () => {
                   </h4>
 
                 </div>
+                </Link>
               </div>
               <div className="col-lg-6 mx-auto">
+                <Link className="text-light text-decoration-none" to="/hizmetlerimiz/7">
                 <div className="service-card"
                 style={{
                   backgroundImage: `linear-gradient(
@@ -139,6 +152,7 @@ const Home = () => {
                   </h4>
 
                 </div>
+                </Link>
               </div>
             </div>
             {/* ------------------------HİZMETLERİMİZ end--------------------------------------- */}

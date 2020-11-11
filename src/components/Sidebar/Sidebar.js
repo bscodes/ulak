@@ -7,7 +7,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import cross from '../../image/cross.png'
 
 
-export default props => {
+const Sidebar = props => {
   return (
     <Menu 
       burgerButtonClassName={ "my-class" } 
@@ -30,3 +30,4 @@ export default props => {
     </Menu>
   );
 };
+export default Sidebar

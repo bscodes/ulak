@@ -1,5 +1,7 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+
+
 import './CatiAccordion.scss';
 
 
@@ -13,6 +15,7 @@ import dokuman from '../../image/dokuman.png'
 
 const CatiAccordion = () => {
   return (
+    <>
     <div className="collapse-wrapper">
     <Collapsible
       open
@@ -43,7 +46,7 @@ const CatiAccordion = () => {
           <div className="col-lg-12 ml-auto">
             <div className="acc-text-holder mt-2 mb-2">
               <p className="accordion-text">
-              VİYS MÜŞTERİ HİZMETLERİ YONETİM PLATFORMLARININ 
+                VİYS MÜŞTERİ HİZMETLERİ YONETİM PLATFORMLARININ 
                 TÜRKİYE'DEKİ KAYNAKLARLA DÜNYA STANDARDINDA 
                 OLMASINI SAĞLAMAK ÜZERE GELİŞTİRİLEN YAZILIMDIR. 
                 MEVCUTTA BIR KURUM VE KURULUŞ TARAFINDAN DA 
@@ -268,7 +271,11 @@ const CatiAccordion = () => {
         </div>
       </div>
     </Collapsible>
+    
+
     </div>
+    
+    </>
   );
 }
 
