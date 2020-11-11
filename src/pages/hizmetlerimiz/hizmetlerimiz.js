@@ -30,9 +30,9 @@ const Hizmetlerimiz = () => {
         <div className="row no-gutters">
           <div className="col-lg-12">
             <div className="section-header hizmetlerimiz-header"
-              style={{backgroundImage: `url(${catiheader})`}}
+              /* style={{backgroundImage: `url(${catiheader})`}} */
             >
-              {/* <img src={catiheader} alt="" className="section-header-image"/> */}
+              <img src={catiheader} alt="" className="section-header-image"/>
               <h1 className="header-title text-light text-center">
                 HİZMETLERİMİZ
               </h1>
