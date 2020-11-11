@@ -38,7 +38,17 @@ function App() {
         <Route exact path="/iletisim" component={iletisim}/>
 
         <Route  path="/hizmetlerimiz" component={Hizmetlerimiz}/>
-        
+        <Route exact path="/hizmetlerimiz/1" component={Hizmetlerimiz}/>
+        <Route exact path="/hizmetlerimiz/2" component={Hizmetlerimiz}/>
+        <Route exact path="/hizmetlerimiz/3" component={Hizmetlerimiz}/>
+        <Route exact path="/hizmetlerimiz/4" component={Hizmetlerimiz}/>
+        <Route exact path="/hizmetlerimiz/5" component={Hizmetlerimiz}/>
+        <Route exact path="/hizmetlerimiz/6" component={Hizmetlerimiz}/>
+        <Route exact path="/hizmetlerimiz/7" component={Hizmetlerimiz}/>
+
+
+
+
 
         <Route exact path="/destek-kadro" component={DestekKadro}/>
         <Route exact path="/proje-yonetimi" component={ProjeYonetimi}/>
