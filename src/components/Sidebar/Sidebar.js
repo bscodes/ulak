@@ -23,6 +23,22 @@ const Sidebar = props => {
         HİZMETLERİMİZ
       </Link>
       <hr className="line "/>
+      <Link className="menu-item" to="/destek-kadro">
+        DESTEK KADRO VE OPERASYON YÖNETİMİ
+      </Link>
+      <hr className="line "/>
+      <Link className="menu-item" to="/proje-yonetimi">
+      PROJE YÖNETİMİ
+      </Link>
+      <hr className="line "/>
+      <Link className="menu-item" to="/teknoloji-yonetimi">
+      TEKNOLOJİ YÖNETİMİ
+      </Link>
+      <hr className="line "/>
+      <Link className="menu-item" to="/vatandas-deneyimi-yonetimi">
+      VATANDAŞ DENEYİMİ YÖNETİMİ
+      </Link>
+      <hr className="line "/>
       <Link className="menu-item" to="/iletisim">
         İLETİŞİM
       </Link>
